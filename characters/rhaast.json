@@ -1,0 +1,257 @@
+{
+    "system": "Savage Worlds: Edição Aventura",
+    "portrait": "https://i.imgur.com/Igya4Ch.png",
+    "header": {
+        "name": "Rhaast",
+        "race": "Marciano Branco/Humano",
+        "age": "Indefinido",
+        "height": "1,90m",
+        "weight": "110kg",
+        "advances": 0
+    },
+    "volatile": {
+        "extraWounds": 0,
+        "extraBennies": 0
+    },
+    "attributes": {
+        "agility": "d8",
+        "smarts": "d4",
+        "spirit": "d8",
+        "strength": "d8",
+        "vigor": "d6"
+    },
+    "derivedStats": {
+        "size": 0,
+        "movements": [
+            {
+                "type": "Padrão",
+                "pace": 6,
+                "runningDie": "d6"
+            },
+            {
+                "type": "Voo",
+                "pace": 6,
+                "runningDie": "d6"
+            }
+        ],
+        "parryModifiers": [
+            {
+                "value": 3,
+                "source": "Superpoder Aparar"
+            }
+        ],
+        "toughnessModifiers": [
+            {
+                "value": 8,
+                "source": "Superpoder Armadura"
+            }
+        ]
+    },
+    "skills": [
+        {
+            "name": "Atletismo",
+            "die": "d4"
+        },
+        {
+            "name": "Conhecimento Geral",
+            "die": "d4"
+        },
+        {
+            "name": "Curar",
+            "die": "d4"
+        },
+        {
+            "name": "Foco",
+            "die": "d8"
+        },
+        {
+            "name": "Furtividade",
+            "die": "d6"
+        },
+        {
+            "name": "Intimidar",
+            "die": "d4"
+        },
+        {
+            "name": "Lutar",
+            "die": "d12+4"
+        },
+        {
+            "name": "Perceber",
+            "die": "d4"
+        },
+        {
+            "name": "Performance",
+            "die": "d4"
+        },
+        {
+            "name": "Persuadir",
+            "die": "d8"
+        }
+    ],
+    "edges": [
+        {
+            "name": "Superpoderes",
+            "requirements": "Novato",
+            "description": "Esta Vantagem concede à personagem um número de \"Pontos de Superpoder\" que podem ser usados para comprar superpoderes."
+        },
+        {
+            "name": "Frenesi",
+            "requirements": "Experiente, Lutar d8+",
+            "description": "Como uma ação limitada, personagens com Frenesi podem rolar um segundo dado de Lutar com qualquer um de seus ataques de Lutar naquele turno."
+        },
+        {
+            "name": "Frenesi Aprimorado",
+            "requirements": "Veterano, Frenesi",
+            "description": "Como Frenesi, mas adiciona um terceiro dado de Lutar a seu ataque feito com Frenesi neste turno."
+        },
+        {
+            "name": "Carismático",
+            "requirements": "Novato, Espírito d8+",
+            "description": "Confere simpatia por alguma razão. Você tem uma rerrolagem gratuita em rolagens de Persuadir."
+        },
+        {
+            "name": "Impulso",
+            "requirements": "Novato, Espírito d8+",
+            "description": "Quando você gasta um Bene para rerrolar uma Característica, adicione +2 ao total."
+        }
+    ],
+    "hindrances": [
+        {
+            "name": "Arrogante",
+            "type": "major",
+            "description": "Personagens arrogantes não se acham melhores, sabem que são. Só vencer não é o bastante, é preciso dominar completamente quem se opuser."
+        },
+        {
+            "name": "Curioso",
+            "type": "major",
+            "description": "A curiosidade matou o gato e também pode matar personagens com esta Complicação."
+        },
+        {
+            "name": "Ganancioso",
+            "type": "minor",
+            "description": "Personagens com essa complicação agem com avareza, medindo valor em bens comerciais ou riqueza."
+        },
+        {
+            "name": "Sensível",
+            "type": "minor",
+            "description": "Ataques pessoais deixam este indivíduo especialmente irritado. Subtrai 2 quando resiste a Provocar."
+        }
+    ],
+    "equipment": {
+        "weapons": [
+            {
+                "name": "Espada Bastarda",
+                "damage": "Força+d8+4d6+1",
+                "range": "2",
+                "ap": 1,
+                "minStrength": "d8",
+                "weight": 3,
+                "status": "equipped",
+                "description": "Rhaast transforma a Adaga Sanguinária em uma Espada Bastarda."
+            }
+        ],
+        "armor": [],
+        "shields": [],
+        "gear": []
+    },
+    "powers": [
+        {
+            "name": "Voo (2)",
+            "manifestation": "Os cabelos e as roupas de Abel flutuam como se estivessem submersos e ele é capaz de voar de forma veloz.",
+            "description": "A heroína ou herói pode se mover rápida e facilmente pelo ar.",
+            "rank": "",
+            "powerPoints": "",
+            "range": "Pessoal",
+            "duration": "",
+            "damage": "",
+            "ap": "",
+            "activationSkill": ""
+        },
+        {
+            "name": "Superperícia (Lutar +6)",
+            "manifestation": "Rhaast era exímio soldado em marte, nesta forma ele é capaz de usar toda sua habilidade utilizando o corpo de Abel como marionete.",
+            "description": "Superperícia compra ou aumenta uma perícia em um tipo de dano por nível. Cada nível custa um ponto e aumenta características derivadas, como Aparar.",
+            "rank": "",
+            "powerPoints": "",
+            "range": "",
+            "duration": "",
+            "damage": "",
+            "ap": "",
+            "activationSkill": ""
+        },
+        {
+            "name": "Aparar (3)",
+            "manifestation": "Rhaast fica intangível rapidamente evitando golpes que deveriam acertá-lo.",
+            "description": "O Aparar de sua personagem aumenta em +1 cada vez que este poder for adquirido, até um máximo de +5.",
+            "rank": "",
+            "powerPoints": "",
+            "range": "Pessoal",
+            "duration": "",
+            "damage": "",
+            "ap": "",
+            "activationSkill": ""
+        },
+        {
+            "name": "Ataque Corpo a Corpo (6)",
+            "manifestation": "A Bastarda Sanguinária pulsa em energia avermelhada.",
+            "description": "Personagens podem aumentar seu dano corpo a corpo usando este poder, que se aplica a todos os ataques de Lutar, armados ou desarmados.",
+            "rank": "",
+            "powerPoints": "",
+            "range": "2m",
+            "duration": "",
+            "damage": "Força+d8+4d6+1",
+            "ap": "1",
+            "activationSkill": ""
+        },
+        {
+            "name": "Ações Adicionais (10)",
+            "manifestation": "Rhaast costumava ser um exímio soldado, seus movimentos se tornam um borrão intencional. O mundo ao redor desacelera enquanto ele está em combate.",
+            "description": "Por 10 pontos, o poder reduz as penalidades totais de Ações Múltiplas em quatro. É possível realizar três ações diferentes sem penalidades.",
+            "rank": "",
+            "powerPoints": "",
+            "range": "Pessoal",
+            "duration": "",
+            "damage": "",
+            "ap": "",
+            "activationSkill": ""
+        },
+        {
+            "name": "Esquiva (5)",
+            "manifestation": "A consciência dupla neste corpo permite com que Abel ativamente fique intangível quando atacantes a distância o tem como alvo.",
+            "description": "Ataques de longa distância diretos subtraem 1 para cada ponto neste poder, até um máximo de 5.",
+            "rank": "",
+            "powerPoints": "",
+            "range": "Pessoal",
+            "duration": "",
+            "damage": "",
+            "ap": "",
+            "activationSkill": "Foco"
+        },
+        {
+            "name": "Armadura (4)",
+            "manifestation": "Rhaast transforma parte do seu corpo em uma armadura de placas.",
+            "description": "A personagem ganha 2 pontos de armadura cada vez que este poder for comprado.",
+            "rank": "",
+            "powerPoints": "",
+            "range": "Pessoal",
+            "duration": "",
+            "damage": "",
+            "ap": "",
+            "activationSkill": ""
+        },
+        {
+            "name": "Superatributo (Força +2)",
+            "manifestation": "Rhaast encobre o corpo de Abel como um exoesqueleto vivo. É a própria matéria marciana, densa e metamórfica.",
+            "description": "Este poder aumenta o atributo escolhido em um tipo de dado por nível. Isso também afeta as Estatísticas Derivadas, como Resistência.",
+            "rank": "",
+            "powerPoints": "",
+            "range": "Pessoal",
+            "duration": "",
+            "damage": "",
+            "ap": "",
+            "activationSkill": ""
+        }
+    ],
+    "biography": "<p>Abel, um jovem curioso com o dom de atravessar paredes, vasculhava as terras arrasadas pela Guerra dos Três Reinos quando encontrou uma adaga negra e incomum. Ele a chamou de Adaga Sanguinária. A lâmina perdia seu fio irremediavelmente sem contato com sangue e, quando o tocava, emitia uma vibração soturna. Amolá-la era inútil; apenas o sangue restaurava seu corte.</p><p>Alguns dias após o conflito, na floresta, ele avistou uma carruagem fortemente custodiada por agentes de Amanda Waller. Dentro, um prisioneiro marciano branco definhava, à beira da morte. Abel, espreitando de dentro da parede da carruagem, viu uma oportunidade. Sussurrou uma proposta: \"Eu sei do que você é capaz. Possua esta adaga mágica, e eu te libertarei\".</p><p>O marciano, Rhaast, aceitou o pacto. Agora, Rhaast habita a adaga e concede parte de seu poder a Abel. Em troca, quando a necessidade é extrema, Abel permite que Rhaast assuma temporariamente o controle de seu corpo, transformando-os numa força de combate formidável e simbiótica.</p>"
+}

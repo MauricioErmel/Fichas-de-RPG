@@ -1,0 +1,397 @@
+{
+    "pt-BR": {
+        "siteTitle": "Fichas de RPG",
+        "myCharacters": "Meus Personagens",
+        "uploadCharacter": "Carregar Ficha",
+        "createCharacter": "Criar Ficha",
+        "createCharacterTitle": "Criar Personagem",
+        "editCharacterTitle": "Editar Personagem",
+        "back": "Voltar",
+        "save": "Salvar",
+        "cancel": "Cancelar",
+        "download": "Baixar Ficha",
+        "noCharacters": "Nenhum personagem encontrado",
+        
+        "header": {
+            "name": "Nome",
+            "race": "Raça",
+            "age": "Idade",
+            "height": "Altura",
+            "weight": "Peso",
+            "advances": "Avanços"
+        },
+        
+        "subheader": {
+            "fatigue": "Fadiga",
+            "wounds": "Ferimentos",
+            "bennies": "Benes",
+            "status": "Status"
+        },
+        
+        "fatigueLevel": {
+            "fatigued": "Fatigado",
+            "exhausted": "Exausto",
+            "incapacitated": "Incapacitado"
+        },
+        
+        "statusNames": {
+            "shaken": "Abalado",
+            "distracted": "Distraído",
+            "vulnerable": "Vulnerável",
+            "stunned": "Atordoado",
+            "entangled": "Enredado",
+            "bound": "Preso",
+            "incapacitated": "Incapacitado",
+            "prone": "Caído"
+        },
+        
+        "derivedStats": {
+            "size": "Tamanho",
+            "pace": "Movimento",
+            "parry": "Aparar",
+            "toughness": "Resistência",
+            "runningDie": "Dado de Corrida",
+            "armor": "Armadura"
+        },
+        
+        "attributes": {
+            "title": "Atributos",
+            "agility": "Agilidade",
+            "smarts": "Astúcia",
+            "spirit": "Espírito",
+            "strength": "Força",
+            "vigor": "Vigor"
+        },
+        
+        "skills": {
+            "title": "Perícias",
+            "unskilled": "Sem Perícia",
+            "shooting": "Atirar",
+            "athletics": "Atletismo",
+            "riding": "Cavalgar",
+            "science": "Ciência",
+            "weirdScience": "Ciência Estranha",
+            "academicKnowledge": "Conhecimento Acadêmico",
+            "battleKnowledge": "Conhecimento Batalha",
+            "commonKnowledge": "Conhecimento Geral",
+            "spellcasting": "Conjurar",
+            "repair": "Consertar",
+            "healing": "Curar",
+            "driving": "Dirigir",
+            "electronics": "Eletrônica",
+            "faith": "Fé",
+            "focus": "Foco",
+            "stealth": "Furtividade",
+            "hacking": "Hackear",
+            "languages": "Idiomas",
+            "intimidation": "Intimidar",
+            "gambling": "Jogar",
+            "thievery": "Ladinagem",
+            "fighting": "Lutar",
+            "boating": "Navegar",
+            "occult": "Ocultismo",
+            "notice": "Perceber",
+            "performance": "Performance",
+            "persuasion": "Persuadir",
+            "piloting": "Pilotar",
+            "taunt": "Provocar",
+            "psionics": "Psiônicos",
+            "survival": "Sobrevivência",
+            "custom": "Customizada"
+        },
+        
+        "sections": {
+            "edges": "Vantagens",
+            "hindrances": "Complicações",
+            "equipment": "Equipamentos",
+            "powers": "Poderes",
+            "biography": "Biografia"
+        },
+        
+        "edges": {
+            "requirements": "Requisitos"
+        },
+        
+        "hindrances": {
+            "major": "Maior",
+            "minor": "Menor"
+        },
+        
+        "equipment": {
+            "weapons": "Armas",
+            "armor": "Armaduras",
+            "shields": "Escudos",
+            "gear": "Miscelânea",
+            "damage": "Dano",
+            "range": "Distância",
+            "ap": "PA",
+            "minStrength": "Força Mín.",
+            "armorValue": "Armadura",
+            "coverage": "Cobertura",
+            "parryBonus": "Aparar",
+            "protectedAreas": "Áreas Protegidas",
+            "status": {
+                "equipped": "Equipado",
+                "carried": "Carregado",
+                "stored": "Guardado"
+            },
+            "totalWeight": "Peso Total",
+            "maxWeight": "Peso Máximo",
+            "strengthAttribute": "Atributo Força"
+        },
+        
+        "powers": {
+            "manifestation": "Manifestação",
+            "description": "Descrição",
+            "rank": "Estágio",
+            "powerPoints": "Pontos de Poder",
+            "range": "Distância",
+            "duration": "Duração",
+            "damage": "Dano",
+            "ap": "Penetração de Armadura",
+            "activationSkill": "Perícia de Ativação",
+            "notApplicable": "Não se aplica",
+            "ranks": {
+                "novice": "Novato",
+                "seasoned": "Experiente",
+                "veteran": "Veterano",
+                "heroic": "Heroico",
+                "legendary": "Lendário"
+            }
+        },
+        
+        "creation": {
+            "system": "Sistema",
+            "portrait": "URL do Retrato",
+            "portraitPlaceholder": "https://exemplo.com/imagem.png",
+            "basicInfo": "Informações Básicas",
+            "addSkill": "Adicionar Perícia",
+            "addEdge": "Adicionar Vantagem",
+            "addHindrance": "Adicionar Complicação",
+            "addWeapon": "Adicionar Arma",
+            "addArmor": "Adicionar Armadura",
+            "addShield": "Adicionar Escudo",
+            "addGear": "Adicionar Item",
+            "addPower": "Adicionar Poder",
+            "addMovement": "Adicionar Movimento",
+            "addModifier": "Adicionar Modificador",
+            "customSkillName": "Nome da Perícia Customizada",
+            "selectSkill": "Selecione uma perícia",
+            "selectDie": "Dado",
+            "movementType": "Tipo de Movimento",
+            "modifierName": "Nome do Modificador",
+            "modifierValue": "Valor"
+        },
+        
+        "validation": {
+            "required": "Este campo é obrigatório",
+            "duplicateSkill": "Esta perícia já foi adicionada",
+            "invalidUrl": "URL inválida"
+        },
+        
+        "messages": {
+            "characterLoaded": "Ficha carregada com sucesso!",
+            "characterSaved": "Ficha salva com sucesso!",
+            "invalidFile": "Arquivo inválido. Por favor, selecione um arquivo .json válido.",
+            "confirmDelete": "Tem certeza que deseja remover este item?"
+        }
+    },
+    
+    "en": {
+        "siteTitle": "RPG Character Sheets",
+        "myCharacters": "My Characters",
+        "uploadCharacter": "Upload Sheet",
+        "createCharacter": "Create Sheet",
+        "createCharacterTitle": "Create Character",
+        "editCharacterTitle": "Edit Character",
+        "back": "Back",
+        "save": "Save",
+        "cancel": "Cancel",
+        "download": "Download Sheet",
+        "noCharacters": "No characters found",
+        
+        "header": {
+            "name": "Name",
+            "race": "Race",
+            "age": "Age",
+            "height": "Height",
+            "weight": "Weight",
+            "advances": "Advances"
+        },
+        
+        "subheader": {
+            "fatigue": "Fatigue",
+            "wounds": "Wounds",
+            "bennies": "Bennies",
+            "status": "Status"
+        },
+        
+        "fatigueLevel": {
+            "fatigued": "Fatigued",
+            "exhausted": "Exhausted",
+            "incapacitated": "Incapacitated"
+        },
+        
+        "statusNames": {
+            "shaken": "Shaken",
+            "distracted": "Distracted",
+            "vulnerable": "Vulnerable",
+            "stunned": "Stunned",
+            "entangled": "Entangled",
+            "bound": "Bound",
+            "incapacitated": "Incapacitated",
+            "prone": "Prone"
+        },
+        
+        "derivedStats": {
+            "size": "Size",
+            "pace": "Pace",
+            "parry": "Parry",
+            "toughness": "Toughness",
+            "runningDie": "Running Die",
+            "armor": "Armor"
+        },
+        
+        "attributes": {
+            "title": "Attributes",
+            "agility": "Agility",
+            "smarts": "Smarts",
+            "spirit": "Spirit",
+            "strength": "Strength",
+            "vigor": "Vigor"
+        },
+        
+        "skills": {
+            "title": "Skills",
+            "unskilled": "Unskilled",
+            "shooting": "Shooting",
+            "athletics": "Athletics",
+            "riding": "Riding",
+            "science": "Science",
+            "weirdScience": "Weird Science",
+            "academicKnowledge": "Academic Knowledge",
+            "battleKnowledge": "Battle Knowledge",
+            "commonKnowledge": "Common Knowledge",
+            "spellcasting": "Spellcasting",
+            "repair": "Repair",
+            "healing": "Healing",
+            "driving": "Driving",
+            "electronics": "Electronics",
+            "faith": "Faith",
+            "focus": "Focus",
+            "stealth": "Stealth",
+            "hacking": "Hacking",
+            "languages": "Languages",
+            "intimidation": "Intimidation",
+            "gambling": "Gambling",
+            "thievery": "Thievery",
+            "fighting": "Fighting",
+            "boating": "Boating",
+            "occult": "Occult",
+            "notice": "Notice",
+            "performance": "Performance",
+            "persuasion": "Persuasion",
+            "piloting": "Piloting",
+            "taunt": "Taunt",
+            "psionics": "Psionics",
+            "survival": "Survival",
+            "custom": "Custom"
+        },
+        
+        "sections": {
+            "edges": "Edges",
+            "hindrances": "Hindrances",
+            "equipment": "Equipment",
+            "powers": "Powers",
+            "biography": "Biography"
+        },
+        
+        "edges": {
+            "requirements": "Requirements"
+        },
+        
+        "hindrances": {
+            "major": "Major",
+            "minor": "Minor"
+        },
+        
+        "equipment": {
+            "weapons": "Weapons",
+            "armor": "Armor",
+            "shields": "Shields",
+            "gear": "Gear",
+            "damage": "Damage",
+            "range": "Range",
+            "ap": "AP",
+            "minStrength": "Min. Str.",
+            "armorValue": "Armor",
+            "coverage": "Coverage",
+            "parryBonus": "Parry",
+            "protectedAreas": "Protected Areas",
+            "status": {
+                "equipped": "Equipped",
+                "carried": "Carried",
+                "stored": "Stored"
+            },
+            "totalWeight": "Total Weight",
+            "maxWeight": "Max Weight",
+            "strengthAttribute": "Strength Attribute"
+        },
+        
+        "powers": {
+            "manifestation": "Manifestation",
+            "description": "Description",
+            "rank": "Rank",
+            "powerPoints": "Power Points",
+            "range": "Range",
+            "duration": "Duration",
+            "damage": "Damage",
+            "ap": "Armor Piercing",
+            "activationSkill": "Activation Skill",
+            "notApplicable": "N/A",
+            "ranks": {
+                "novice": "Novice",
+                "seasoned": "Seasoned",
+                "veteran": "Veteran",
+                "heroic": "Heroic",
+                "legendary": "Legendary"
+            }
+        },
+        
+        "creation": {
+            "system": "System",
+            "portrait": "Portrait URL",
+            "portraitPlaceholder": "https://example.com/image.png",
+            "basicInfo": "Basic Information",
+            "addSkill": "Add Skill",
+            "addEdge": "Add Edge",
+            "addHindrance": "Add Hindrance",
+            "addWeapon": "Add Weapon",
+            "addArmor": "Add Armor",
+            "addShield": "Add Shield",
+            "addGear": "Add Gear",
+            "addPower": "Add Power",
+            "addMovement": "Add Movement",
+            "addModifier": "Add Modifier",
+            "customSkillName": "Custom Skill Name",
+            "selectSkill": "Select a skill",
+            "selectDie": "Die",
+            "movementType": "Movement Type",
+            "modifierName": "Modifier Name",
+            "modifierValue": "Value"
+        },
+        
+        "validation": {
+            "required": "This field is required",
+            "duplicateSkill": "This skill has already been added",
+            "invalidUrl": "Invalid URL"
+        },
+        
+        "messages": {
+            "characterLoaded": "Character sheet loaded successfully!",
+            "characterSaved": "Character sheet saved successfully!",
+            "invalidFile": "Invalid file. Please select a valid .json file.",
+            "confirmDelete": "Are you sure you want to remove this item?"
+        }
+    }
+}

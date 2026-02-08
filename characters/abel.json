@@ -1,0 +1,258 @@
+{
+  "system": "Savage Worlds: Edição Aventura",
+  "portrait": "https://i.imgur.com/6R1D36r.png",
+  "header": {
+    "name": "Abel",
+    "race": "Humano",
+    "age": "17 anos",
+    "height": "1,70m",
+    "weight": "65kg",
+    "advances": 0
+  },
+  "volatile": {
+    "extraWounds": 0,
+    "extraBennies": 0
+  },
+  "attributes": {
+    "agility": "d8",
+    "smarts": "d4",
+    "spirit": "d8",
+    "strength": "d4",
+    "vigor": "d6"
+  },
+  "skills": [
+    {
+      "name": "Atletismo",
+      "die": "d4"
+    },
+    {
+      "name": "Conhecimento Geral",
+      "die": "d4"
+    },
+    {
+      "name": "Curar",
+      "die": "d4"
+    },
+    {
+      "name": "Foco",
+      "die": "d12+2"
+    },
+    {
+      "name": "Furtividade",
+      "die": "d6"
+    },
+    {
+      "name": "Intimidar",
+      "die": "d4"
+    },
+    {
+      "name": "Lutar",
+      "die": "d8"
+    },
+    {
+      "name": "Perceber",
+      "die": "d4"
+    },
+    {
+      "name": "Performance",
+      "die": "d4"
+    },
+    {
+      "name": "Persuadir",
+      "die": "d8"
+    }
+  ],
+  "derivedStats": {
+    "size": 0,
+    "movements": [
+      {
+        "type": "Padrão",
+        "pace": 6,
+        "runningDie": "d6"
+      },
+      {
+        "type": "Voo",
+        "pace": 45,
+        "runningDie": "d6"
+      }
+    ],
+    "parryModifiers": [],
+    "toughnessModifiers": []
+  },
+  "edges": [
+    {
+      "name": "Superpoderes",
+      "requirements": "Novato",
+      "description": "<p>Esta Vantagem concede à personagem um número de \"Pontos de Superpoder\" que podem ser usados para comprar superpoderes listados no Capítulo Quatro.</p>"
+    },
+    {
+      "name": "Frenesi",
+      "requirements": "Experiente, Lutar d8+",
+      "description": "<p>Como uma ação limitada, personagens com Frenesi podem rolar um segundo dado de Lutar com qualquer um de seus ataques de Lutar naquele turno.</p>"
+    },
+    {
+      "name": "Frenesi Aprimorado",
+      "requirements": "Veterano, Frenesi",
+      "description": "<p>Como Frenesi, mas adiciona um terceiro dado de Lutar a seu ataque feito com Frenesi neste turno.</p>"
+    },
+    {
+      "name": "Carismático",
+      "requirements": "Novato, Espírito d8+",
+      "description": "<p>Confere simpatia por alguma razão. Você tem uma rerrolagem gratuita em rolagens de Persuadir.</p>"
+    },
+    {
+      "name": "Impulso",
+      "requirements": "Novato, Espírito d8+",
+      "description": "<p>Quando você gasta um Bene para rerrolar uma Característica, adicione +2 ao total.</p>"
+    }
+  ],
+  "hindrances": [
+    {
+      "name": "Arrogante",
+      "type": "major",
+      "description": "<p>Personagens arrogantes não se acham melhores, sabem que são. Só vencer não é o bastante, é preciso dominar completamente quem se opuser.</p>"
+    },
+    {
+      "name": "Curioso",
+      "type": "major",
+      "description": "<p>A curiosidade matou o gato e também pode matar personagens com esta Complicação. Irão checar tudo e sempre querem saber o que há por trás de um mistério.</p>"
+    },
+    {
+      "name": "Ganancioso",
+      "type": "minor",
+      "description": "<p>Personagens com essa complicação agem com avareza, medindo valor em bens comerciais ou riqueza.</p>"
+    },
+    {
+      "name": "Sensível",
+      "type": "minor",
+      "description": "<p>Ataques pessoais deixam este indivíduo especialmente irritado. Subtrai 2 quando resiste a Provocar.</p>"
+    }
+  ],
+  "equipment": {
+    "weapons": [
+      {
+        "name": "Adaga",
+        "damage": "Força+d4",
+        "range": "3/6/12",
+        "ap": 0,
+        "minStrength": "d4",
+        "weight": 0.5,
+        "status": "equipped",
+        "description": "<p>Adaga Sanguinária. Adaga possuída pelo marciano branco Rhaast que concede novos poderes para Abel.</p>"
+      }
+    ],
+    "armor": [
+      {
+        "name": "Jaqueta (Tecido/Couro Leve)",
+        "armorValue": 1,
+        "protectedAreas": "Torso e Braços",
+        "minStrength": "d4",
+        "weight": 2.5,
+        "status": "equipped",
+        "description": "<p><br></p>"
+      }
+    ],
+    "shields": [],
+    "gear": [
+      {
+        "name": "Maçã",
+        "weight": 0.1,
+        "status": "carried",
+        "description": "<p>Uma maçã verde.</p>"
+      },
+      {
+        "name": "Carroça",
+        "weight": 300,
+        "status": "stored",
+        "description": "<p>Uma carroça velha.</p>"
+      }
+    ]
+  },
+  "powers": [
+    {
+      "name": "Intangibilidade",
+      "rank": "",
+      "powerPoints": "",
+      "range": "Pessoal",
+      "duration": "",
+      "damage": "",
+      "ap": "",
+      "activationSkill": "",
+      "manifestation": "<p>Abel fica com a pele pálida, seu cabelo ruivo escuro vira azul escuro e fica solto flutuando como se estivesse submerso, seus olhos ficam totalmente negros, a pintura de seu rosto muda do vermelho para o azul e seu corpo ganha uma aura escura de sombras.</p>",
+      "description": "<p>Intangibilidade faz com que a personagem não seja capaz de afetar ou ser afetada por ataques físicos, como um fantasma ou espírito. Tornar-se intangível é uma ação. Tornar-se tangível é uma ação livre.</p>"
+    },
+    {
+      "name": "Voo",
+      "rank": "",
+      "powerPoints": "",
+      "range": "Pessoal",
+      "duration": "",
+      "damage": "",
+      "ap": "",
+      "activationSkill": "",
+      "manifestation": "<p>Os cabelos e as roupas de Abel flutuam como se estivessem submersos e ele é capaz de voar de forma veloz.</p>",
+      "description": "<p>A heroína ou herói pode se mover rápida e facilmente pelo ar. Voar em linha reta é fácil, mas fazer curvas e manobras é problemático.</p>"
+    },
+    {
+      "name": "Camaleão",
+      "rank": "",
+      "powerPoints": "",
+      "range": "Pessoal",
+      "duration": "",
+      "damage": "",
+      "ap": "",
+      "activationSkill": "Foco",
+      "manifestation": "<p>A pele, cabelo, roupas e itens de Abel são cobertos por uma película negra que se dispersa revelando a nova forma.</p>",
+      "description": "<p>Mudar de aparência requer uma ação e uma rolagem de Foco. Os detalhes são tão bons quanto o super puder observar.</p>"
+    },
+    {
+      "name": "Invisibilidade",
+      "rank": "",
+      "powerPoints": "",
+      "range": "Pessoal",
+      "duration": "",
+      "damage": "",
+      "ap": "",
+      "activationSkill": "",
+      "manifestation": "<p>Uma aura negra envolve Abel e o consome fazendo-o sumir.</p>",
+      "description": "<p>Tornar-se invisível é uma ação, deixando a personagem instantaneamente difícil de enxergar. Tentativas de perceber e atacar diretamente alguém invisível sofrem uma penalidade de -4.</p>"
+    },
+    {
+      "name": "Leitura Mental",
+      "rank": "",
+      "powerPoints": "",
+      "range": "12 metros",
+      "duration": "",
+      "damage": "",
+      "ap": "",
+      "activationSkill": "Foco",
+      "manifestation": "<p>O olho na Adaga Sanguinária se arregala, Rhaast lê a mente do alvo e passa a informação para Abel telepaticamente.</p>",
+      "description": "<p>Leitura mental permite à personagem ler os pensamentos superficiais de outra pessoa. Para ler a mente de alguém, é necessário escolher um alvo dentro de 6 quadros (12 metros) e fazer uma rolagem de Foco.</p>"
+    },
+    {
+      "name": "Telepatia",
+      "rank": "",
+      "powerPoints": "",
+      "range": "1.5km",
+      "duration": "",
+      "damage": "",
+      "ap": "",
+      "activationSkill": "",
+      "manifestation": "<p>Abel se comunica com outro ser através da Adaga Sanguinária. O outro indivíduo ouve a voz gultural de Rhaast em sua mente.</p>",
+      "description": "<p>A personagem pode se comunicar com qualquer mente inteligente à sua escolha a até 1,5 quilômetro.</p>"
+    },
+    {
+      "name": "Superperícia (Foco +4)",
+      "rank": "",
+      "powerPoints": "",
+      "range": "",
+      "duration": "",
+      "damage": "",
+      "ap": "",
+      "activationSkill": "",
+      "manifestation": "<p>A presença alienígena na mente de Abel sintoniza seus sentidos, filtrando distrações e amplificando sua concentração até um ponto sobrenatural.</p>",
+      "description": "<p>Superperícia compra ou aumenta uma perícia (e seu máximo) em um tipo de dano por nível. Isso reflete treinamento extremo, talento ou aprimoramento sobrenatural.</p>"
+    }
+  ],
+  "biography": "<p>Abel, um jovem curioso com o dom de atravessar paredes, vasculhava as terras arrasadas pela Guerra dos Três Reinos quando encontrou uma adaga negra e incomum. Ele a chamou de Adaga Sanguinária. A lâmina perdia seu fio irremediavelmente sem contato com sangue e, quando o tocava, emitia uma vibração soturna. Amolá-la era inútil; apenas o sangue restaurava seu corte.</p><p>Alguns dias após o conflito, na floresta, ele avistou uma carruagem fortemente custodiada por agentes de Amanda Waller. Dentro, um prisioneiro marciano branco definhava, à beira da morte. Abel, espreitando de dentro da parede da carruagem, viu uma oportunidade. Sussurrou uma proposta: \"Eu sei do que você é capaz. Possua esta adaga mágica, e eu te libertarei\".</p><p>O marciano, Rhaast, aceitou o pacto. Agora, Rhaast habita a adaga e concede parte de seu poder a Abel. Em troca, quando a necessidade é extrema, Abel permite que Rhaast assuma temporariamente o controle de seu corpo, transformando-os numa força de combate formidável e simbiótica.</p>"
+}

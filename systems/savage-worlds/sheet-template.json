@@ -1,0 +1,46 @@
+{
+    "system": "Savage Worlds: Edição Aventura",
+    "portrait": "",
+    "header": {
+        "name": "",
+        "race": "",
+        "age": "",
+        "height": "",
+        "weight": "",
+        "advances": 0
+    },
+    "volatile": {
+        "extraWounds": 0,
+        "extraBennies": 0
+    },
+    "attributes": {
+        "agility": "d4",
+        "smarts": "d4",
+        "spirit": "d4",
+        "strength": "d4",
+        "vigor": "d4"
+    },
+    "derivedStats": {
+        "size": 0,
+        "movements": [
+            {
+                "type": "Padrão",
+                "pace": 6,
+                "runningDie": "d6"
+            }
+        ],
+        "parryModifiers": [],
+        "toughnessModifiers": []
+    },
+    "skills": [],
+    "edges": [],
+    "hindrances": [],
+    "equipment": {
+        "weapons": [],
+        "armor": [],
+        "shields": [],
+        "gear": []
+    },
+    "powers": [],
+    "biography": ""
+}
