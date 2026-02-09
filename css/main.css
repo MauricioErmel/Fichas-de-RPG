@@ -628,13 +628,15 @@ main {
     filter: invert(1);
 }
 
-/* Don't invert character portrait if it's an SVG */
+/* Don't invert */
 [data-theme="dim"] .sheet-portrait[src$=".svg"],
-[data-theme="dim"] .character-portrait[src$=".svg"] {
-    filter: none;
-}
-
-/* Don't invert theme toggle icons */
-[data-theme="dim"] .swap svg {
+[data-theme="dim"] .character-portrait[src$=".svg"],
+[data-theme="dim"] .swap svg,
+[data-theme="dim"] .dropdown-end .btn svg,
+[data-theme="dim"] .chevron,
+[data-theme="dim"] #btn-back-to-index svg,
+[data-theme="dim"] #btn-back-to-index-2 svg,
+[data-theme="dim"] label[for="upload-json"] svg,
+[data-theme="dim"] #btn-create-character svg {
     filter: none;
 }
