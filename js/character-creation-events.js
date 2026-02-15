@@ -24,6 +24,10 @@ Object.assign(CharacterCreation, {
         document.querySelectorAll('.quill-container[data-power-description]').forEach((c, i) => {
             this.quillEditors[`power-desc-${i}`] = new Quill(c, cfg);
         });
+
+        document.querySelectorAll('.quill-container[data-power-modifiers]').forEach((c, i) => {
+            this.quillEditors[`power-mod-${i}`] = new Quill(c, cfg);
+        });
         ['weapon', 'armor', 'shield', 'gear'].forEach(type => {
             document.querySelectorAll(`.quill-container[data-${type}-description]`).forEach((c, i) => {
                 this.quillEditors[`${type}-desc-${i}`] = new Quill(c, cfg);
@@ -39,11 +43,13 @@ Object.assign(CharacterCreation, {
             if (e.description && this.quillEditors[`edge-desc-${i}`]) {
                 this.quillEditors[`edge-desc-${i}`].root.innerHTML = e.description;
             }
+
         });
         (char.hindrances || []).forEach((h, i) => {
             if (h.description && this.quillEditors[`hindrance-desc-${i}`]) {
                 this.quillEditors[`hindrance-desc-${i}`].root.innerHTML = h.description;
             }
+
         });
         (char.powers || []).forEach((p, i) => {
             if (p.manifestation && this.quillEditors[`power-manifest-${i}`]) {
@@ -51,6 +57,9 @@ Object.assign(CharacterCreation, {
             }
             if (p.description && this.quillEditors[`power-desc-${i}`]) {
                 this.quillEditors[`power-desc-${i}`].root.innerHTML = p.description;
+            }
+            if (p.modifiers && this.quillEditors[`power-mod-${i}`]) {
+                this.quillEditors[`power-mod-${i}`].root.innerHTML = p.modifiers;
             }
         });
         ['weapons', 'armor', 'shields', 'gear'].forEach(type => {
@@ -127,7 +136,7 @@ Object.assign(CharacterCreation, {
         const templates = {
             edge: { name: '', requirements: '', description: '' },
             hindrance: { name: '', type: 'minor', description: '' },
-            power: { name: '', manifestation: '', description: '', rank: '', powerPoints: '', range: '', duration: '', damage: '', ap: '', activationSkill: '' },
+            power: { name: '', manifestation: '', description: '', modifiers: '', rank: '', powerPoints: '', range: '', duration: '', damage: '', ap: '', activationSkill: '' },
             weapon: { name: '', damage: '', range: '', ap: 0, minStrength: '', weight: 0, status: 'equipped', description: '' },
             armor: { name: '', armorValue: 0, protectedAreas: '', minStrength: '', weight: 0, status: 'equipped', description: '' },
             shield: { name: '', parryBonus: 0, coverage: 0, minStrength: '', weight: 0, status: 'equipped', description: '' },
@@ -290,7 +299,8 @@ Object.assign(CharacterCreation, {
                 ap: document.querySelector(`[data-power-ap="${i}"]`)?.value || '',
                 activationSkill: document.querySelector(`[data-power-skill="${i}"]`)?.value || '',
                 manifestation: this.quillEditors[`power-manifest-${i}`]?.root.innerHTML || '',
-                description: this.quillEditors[`power-desc-${i}`]?.root.innerHTML || ''
+                description: this.quillEditors[`power-desc-${i}`]?.root.innerHTML || '',
+                modifiers: this.quillEditors[`power-mod-${i}`]?.root.innerHTML || ''
             });
         });
 

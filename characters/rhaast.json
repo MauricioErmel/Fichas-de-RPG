@@ -1,257 +1,274 @@
 {
-    "system": "Savage Worlds: Edição Aventura",
-    "portrait": "https://i.imgur.com/Igya4Ch.png",
-    "header": {
-        "name": "Rhaast",
-        "race": "Marciano Branco/Humano",
-        "age": "Indefinido",
-        "height": "1,90m",
-        "weight": "110kg",
-        "advances": 0
+  "system": "Savage Worlds: Edição Aventura",
+  "portrait": "https://i.imgur.com/Igya4Ch.png",
+  "header": {
+    "name": "Rhaast",
+    "race": "Marciano Branco/Humano",
+    "age": "Indefinido",
+    "height": "1,90m",
+    "weight": "110kg",
+    "advances": 0
+  },
+  "volatile": {
+    "extraWounds": 0,
+    "extraBennies": 0
+  },
+  "attributes": {
+    "agility": "d8",
+    "smarts": "d4",
+    "spirit": "d8",
+    "strength": "d8",
+    "vigor": "d6"
+  },
+  "skills": [
+    {
+      "name": "Atletismo",
+      "die": "d4"
     },
-    "volatile": {
-        "extraWounds": 0,
-        "extraBennies": 0
+    {
+      "name": "Conhecimento Geral",
+      "die": "d4"
     },
-    "attributes": {
-        "agility": "d8",
-        "smarts": "d4",
-        "spirit": "d8",
-        "strength": "d8",
-        "vigor": "d6"
+    {
+      "name": "Curar",
+      "die": "d4"
     },
-    "derivedStats": {
-        "size": 0,
-        "movements": [
-            {
-                "type": "Padrão",
-                "pace": 6,
-                "runningDie": "d6"
-            },
-            {
-                "type": "Voo",
-                "pace": 6,
-                "runningDie": "d6"
-            }
-        ],
-        "parryModifiers": [
-            {
-                "value": 3,
-                "source": "Superpoder Aparar"
-            }
-        ],
-        "toughnessModifiers": [
-            {
-                "value": 8,
-                "source": "Superpoder Armadura"
-            }
-        ]
+    {
+      "name": "Foco",
+      "die": "d8"
     },
-    "skills": [
-        {
-            "name": "Atletismo",
-            "die": "d4"
-        },
-        {
-            "name": "Conhecimento Geral",
-            "die": "d4"
-        },
-        {
-            "name": "Curar",
-            "die": "d4"
-        },
-        {
-            "name": "Foco",
-            "die": "d8"
-        },
-        {
-            "name": "Furtividade",
-            "die": "d6"
-        },
-        {
-            "name": "Intimidar",
-            "die": "d4"
-        },
-        {
-            "name": "Lutar",
-            "die": "d12+4"
-        },
-        {
-            "name": "Perceber",
-            "die": "d4"
-        },
-        {
-            "name": "Performance",
-            "die": "d4"
-        },
-        {
-            "name": "Persuadir",
-            "die": "d8"
-        }
+    {
+      "name": "Furtividade",
+      "die": "d6"
+    },
+    {
+      "name": "Intimidar",
+      "die": "d4"
+    },
+    {
+      "name": "Lutar",
+      "die": "d12+4"
+    },
+    {
+      "name": "Perceber",
+      "die": "d4"
+    },
+    {
+      "name": "Performance",
+      "die": "d4"
+    },
+    {
+      "name": "Persuadir",
+      "die": "d8"
+    }
+  ],
+  "derivedStats": {
+    "size": 0,
+    "movements": [
+      {
+        "type": "Padrão",
+        "pace": 6,
+        "runningDie": "d6"
+      },
+      {
+        "type": "Voo",
+        "pace": 6,
+        "runningDie": "d6"
+      }
     ],
-    "edges": [
-        {
-            "name": "Superpoderes",
-            "requirements": "Novato",
-            "description": "Esta Vantagem concede à personagem um número de \"Pontos de Superpoder\" que podem ser usados para comprar superpoderes."
-        },
-        {
-            "name": "Frenesi",
-            "requirements": "Experiente, Lutar d8+",
-            "description": "Como uma ação limitada, personagens com Frenesi podem rolar um segundo dado de Lutar com qualquer um de seus ataques de Lutar naquele turno."
-        },
-        {
-            "name": "Frenesi Aprimorado",
-            "requirements": "Veterano, Frenesi",
-            "description": "Como Frenesi, mas adiciona um terceiro dado de Lutar a seu ataque feito com Frenesi neste turno."
-        },
-        {
-            "name": "Carismático",
-            "requirements": "Novato, Espírito d8+",
-            "description": "Confere simpatia por alguma razão. Você tem uma rerrolagem gratuita em rolagens de Persuadir."
-        },
-        {
-            "name": "Impulso",
-            "requirements": "Novato, Espírito d8+",
-            "description": "Quando você gasta um Bene para rerrolar uma Característica, adicione +2 ao total."
-        }
+    "parryModifiers": [
+      {
+        "value": 3,
+        "source": "Superpoder Aparar"
+      }
     ],
-    "hindrances": [
-        {
-            "name": "Arrogante",
-            "type": "major",
-            "description": "Personagens arrogantes não se acham melhores, sabem que são. Só vencer não é o bastante, é preciso dominar completamente quem se opuser."
-        },
-        {
-            "name": "Curioso",
-            "type": "major",
-            "description": "A curiosidade matou o gato e também pode matar personagens com esta Complicação."
-        },
-        {
-            "name": "Ganancioso",
-            "type": "minor",
-            "description": "Personagens com essa complicação agem com avareza, medindo valor em bens comerciais ou riqueza."
-        },
-        {
-            "name": "Sensível",
-            "type": "minor",
-            "description": "Ataques pessoais deixam este indivíduo especialmente irritado. Subtrai 2 quando resiste a Provocar."
-        }
-    ],
-    "equipment": {
-        "weapons": [
-            {
-                "name": "Espada Bastarda",
-                "damage": "Força+d8+4d6+1",
-                "range": "2",
-                "ap": 1,
-                "minStrength": "d8",
-                "weight": 3,
-                "status": "equipped",
-                "description": "Rhaast transforma a Adaga Sanguinária em uma Espada Bastarda."
-            }
-        ],
-        "armor": [],
-        "shields": [],
-        "gear": []
+    "toughnessModifiers": [
+      {
+        "value": 8,
+        "source": "Superpoder Armadura"
+      }
+    ]
+  },
+  "edges": [
+    {
+      "name": "Superpoderes",
+      "requirements": "Novato",
+      "description": "<p>Esta Vantagem concede à personagem um número de \"Pontos de Superpoder\" que podem ser usados para comprar superpoderes listados no Capítulo Quatro. O número exato de Pontos de Superpoder com que personagens jogadoras começam o jogo depende do Nível de Poder da Campanha, escolhido pelo Mestre e mostrados a seguir. Se quem estiver mestrando quiser uma campanha de heróis e heroínas pulp ou desenvolver superadolescentes, pode ser usado o Nível de Poder I. Se quiser uma campanha cósmica, pode ir até o topo e escolher o Nível de Poder V. Veja os Níveis de Poder na coluna lateral para mais detalhes.</p>",
+      "modifiers": "<p><br></p>"
     },
-    "powers": [
-        {
-            "name": "Voo (2)",
-            "manifestation": "Os cabelos e as roupas de Abel flutuam como se estivessem submersos e ele é capaz de voar de forma veloz.",
-            "description": "A heroína ou herói pode se mover rápida e facilmente pelo ar.",
-            "rank": "",
-            "powerPoints": "",
-            "range": "Pessoal",
-            "duration": "",
-            "damage": "",
-            "ap": "",
-            "activationSkill": ""
-        },
-        {
-            "name": "Superperícia (Lutar +6)",
-            "manifestation": "Rhaast era exímio soldado em marte, nesta forma ele é capaz de usar toda sua habilidade utilizando o corpo de Abel como marionete.",
-            "description": "Superperícia compra ou aumenta uma perícia em um tipo de dano por nível. Cada nível custa um ponto e aumenta características derivadas, como Aparar.",
-            "rank": "",
-            "powerPoints": "",
-            "range": "",
-            "duration": "",
-            "damage": "",
-            "ap": "",
-            "activationSkill": ""
-        },
-        {
-            "name": "Aparar (3)",
-            "manifestation": "Rhaast fica intangível rapidamente evitando golpes que deveriam acertá-lo.",
-            "description": "O Aparar de sua personagem aumenta em +1 cada vez que este poder for adquirido, até um máximo de +5.",
-            "rank": "",
-            "powerPoints": "",
-            "range": "Pessoal",
-            "duration": "",
-            "damage": "",
-            "ap": "",
-            "activationSkill": ""
-        },
-        {
-            "name": "Ataque Corpo a Corpo (6)",
-            "manifestation": "A Bastarda Sanguinária pulsa em energia avermelhada.",
-            "description": "Personagens podem aumentar seu dano corpo a corpo usando este poder, que se aplica a todos os ataques de Lutar, armados ou desarmados.",
-            "rank": "",
-            "powerPoints": "",
-            "range": "2m",
-            "duration": "",
-            "damage": "Força+d8+4d6+1",
-            "ap": "1",
-            "activationSkill": ""
-        },
-        {
-            "name": "Ações Adicionais (10)",
-            "manifestation": "Rhaast costumava ser um exímio soldado, seus movimentos se tornam um borrão intencional. O mundo ao redor desacelera enquanto ele está em combate.",
-            "description": "Por 10 pontos, o poder reduz as penalidades totais de Ações Múltiplas em quatro. É possível realizar três ações diferentes sem penalidades.",
-            "rank": "",
-            "powerPoints": "",
-            "range": "Pessoal",
-            "duration": "",
-            "damage": "",
-            "ap": "",
-            "activationSkill": ""
-        },
-        {
-            "name": "Esquiva (5)",
-            "manifestation": "A consciência dupla neste corpo permite com que Abel ativamente fique intangível quando atacantes a distância o tem como alvo.",
-            "description": "Ataques de longa distância diretos subtraem 1 para cada ponto neste poder, até um máximo de 5.",
-            "rank": "",
-            "powerPoints": "",
-            "range": "Pessoal",
-            "duration": "",
-            "damage": "",
-            "ap": "",
-            "activationSkill": "Foco"
-        },
-        {
-            "name": "Armadura (4)",
-            "manifestation": "Rhaast transforma parte do seu corpo em uma armadura de placas.",
-            "description": "A personagem ganha 2 pontos de armadura cada vez que este poder for comprado.",
-            "rank": "",
-            "powerPoints": "",
-            "range": "Pessoal",
-            "duration": "",
-            "damage": "",
-            "ap": "",
-            "activationSkill": ""
-        },
-        {
-            "name": "Superatributo (Força +2)",
-            "manifestation": "Rhaast encobre o corpo de Abel como um exoesqueleto vivo. É a própria matéria marciana, densa e metamórfica.",
-            "description": "Este poder aumenta o atributo escolhido em um tipo de dado por nível. Isso também afeta as Estatísticas Derivadas, como Resistência.",
-            "rank": "",
-            "powerPoints": "",
-            "range": "Pessoal",
-            "duration": "",
-            "damage": "",
-            "ap": "",
-            "activationSkill": ""
-        }
+    {
+      "name": "Frenesi",
+      "requirements": "Experiente, Lutar d8+",
+      "description": "<p>Como uma ação limitada, personagens com Frenesi podem rolar um segundo dado de Lutar com qualquer um de seus ataques de Lutar naquele turno. O dado extra pode ser alocado para o mesmo alvo ou para alvos diferentes, conforme ele achar adequado. Resolva cada um separadamente.</p>",
+      "modifiers": "<p><br></p>"
+    },
+    {
+      "name": "Frenesi Aprimorado",
+      "requirements": "Veterano, Frenesi",
+      "description": "<p>Como Frenesi, mas adiciona um terceiro dado de Lutar a seu ataque feito com Frenesi neste turno.</p><p>Exemplo: Red ataca desesperadamente uma criatura gigante com aspecto de caranguejo em um planeta alienígena. Ela tem Frenesi Aprimorado e decide atacar três vezes (uma Ação Múltipla com a penalidade habitual). Ela rola sua perícia Lutar com dois dados extras no primeiro ataque. Ela não tem dados extras na sua segunda e terceira rolagem de Lutar.</p>",
+      "modifiers": "<p><br></p>"
+    },
+    {
+      "name": "Carismático",
+      "requirements": "Novato, Espírito d8+",
+      "description": "<p>Confere simpatia por alguma razão. Pode ser confiável, agir com bondade ou apenas pode transparecer confiança e boa vontade. Você tem uma rerrolagem gratuita em rolagens de Persuadir.</p>",
+      "modifiers": "<p><br></p>"
+    },
+    {
+      "name": "Impulso",
+      "requirements": "Novato, Espírito d8+",
+      "description": "<p>equisitos: Novato, Espírito d8+</p><p>[Impulso tem a ver com energia ou espírito.</p><p>Pessoas que o possuem estão à altura da situação quando a coisa fica feia. Quando você gasta um Bene para rerrolar uma Característica, adicione +2 ao total. O bônus se aplica apenas na rerrolagem. Não se aplica a rolagens de dano (já que não são uma rolagem de Característica), também não se aplica a rolagens de Absorção a menos que você esteja usando outro Bene para rerrolar o teste de Vigor.</p>",
+      "modifiers": "<p><br></p>"
+    }
+  ],
+  "hindrances": [
+    {
+      "name": "Arrogante",
+      "type": "major",
+      "description": "<p>Personagens arrogantes não se acham melhores, sabem que são. Seja no que for – esgrima, kung fu, pintura – aproveitam cada oportunidade para ostentar que quase ninguém se compara às suas habilidades.</p><p>Só vencer não é o bastante, é preciso dominar completamente quem se opuser e provar sua superioridade. É o tipo de pessoa que desarma oponentes em um duelo só para poder pegar a sua espada e devolvê-la com um sorriso desdenhoso. Personagens arrogantes sempre procuram pela maior ameaça em batalha, atacando rivais menores apenas se ficarem em seu caminho.</p>",
+      "modifiers": "<p><br></p>"
+    },
+    {
+      "name": "Curioso",
+      "type": "major",
+      "description": "<p>A curiosidade matou o gato e também pode matar personagens com esta Complicação. Irão checar tudo e sempre querem saber o que há por trás de um mistério ou segredo em potencial.</p>",
+      "modifiers": "<p><br></p>"
+    },
+    {
+      "name": "Ganancioso",
+      "type": "minor",
+      "description": "<p>Personagens com essa complicação agem com avareza, medindo valor em bens comerciais ou riqueza. Como uma Complicação Menor, argumentam amargamente querendo mais do que sua parte em qualquer despojo adquirido durante o jogo. Se for uma Complicação Maior, lutam por qualquer coisa que considerem injusta e podem até mesmo matar ao se sentirem alvo de menosprezo ou cobiçarem algo que não possam ter.</p>",
+      "modifiers": "<p><br></p>"
+    },
+    {
+      "name": "Sensível",
+      "type": "minor",
+      "description": "<p>Ataques pessoais deixam este indivíduo especialmente irritado. Como uma Complicação Menor subtrai 2 quando resiste a Provocar. Como uma Maior, subtrai 4.</p>",
+      "modifiers": "<p><br></p>"
+    }
+  ],
+  "equipment": {
+    "weapons": [
+      {
+        "name": "Espada Bastarda",
+        "damage": "Força+d8+4d6+1",
+        "range": "2",
+        "ap": 1,
+        "minStrength": "d8",
+        "weight": 3,
+        "status": "equipped",
+        "description": "<p>Rhaast transforma a Adaga Sanguinária em uma Espada Bastarda.</p>"
+      }
     ],
-    "biography": "<p>Abel, um jovem curioso com o dom de atravessar paredes, vasculhava as terras arrasadas pela Guerra dos Três Reinos quando encontrou uma adaga negra e incomum. Ele a chamou de Adaga Sanguinária. A lâmina perdia seu fio irremediavelmente sem contato com sangue e, quando o tocava, emitia uma vibração soturna. Amolá-la era inútil; apenas o sangue restaurava seu corte.</p><p>Alguns dias após o conflito, na floresta, ele avistou uma carruagem fortemente custodiada por agentes de Amanda Waller. Dentro, um prisioneiro marciano branco definhava, à beira da morte. Abel, espreitando de dentro da parede da carruagem, viu uma oportunidade. Sussurrou uma proposta: \"Eu sei do que você é capaz. Possua esta adaga mágica, e eu te libertarei\".</p><p>O marciano, Rhaast, aceitou o pacto. Agora, Rhaast habita a adaga e concede parte de seu poder a Abel. Em troca, quando a necessidade é extrema, Abel permite que Rhaast assuma temporariamente o controle de seu corpo, transformando-os numa força de combate formidável e simbiótica.</p>"
+    "armor": [],
+    "shields": [],
+    "gear": []
+  },
+  "powers": [
+    {
+      "name": "Voo (2)",
+      "rank": "",
+      "powerPoints": "",
+      "range": "Pessoal",
+      "duration": "",
+      "damage": "",
+      "ap": "",
+      "activationSkill": "",
+      "manifestation": "<p>Os cabelos e as roupas de Abel flutuam como se estivessem submersos e ele é capaz de voar de forma veloz.</p>",
+      "description": "<p>Poucos poderes são tão icônicos para cenários de supers como a habilidade de voar! Quer você voe como um pássaro, deslize por aí em pontes de gelo ou surfe em redes elétricas, sua heroína ou herói pode se mover rápida e facilmente.</p><p>Penalidade de Ataque:</p><p>As Penalidades de Ataque listadas a seguir são subtraídas de qualquer ataque corpo a corpo ou de longa distância contra a personagem voadora, assumindo que ela seja capaz de se mover àquela velocidade. Ignore a penalidade se a personagem não estiver se movendo ou estiver confinada a um espaço pequeno.</p><p>A penalidade se acumula com todas as outras penalidades de ataque, exceto aquelas provenientes de velocidade (natural ou de poderes) até um máximo de -10.</p><p>Fora de Controle:</p><p>Se uma heroína ou herói ficar em Estado Abalado, Atordoado ou receber um Ferimento e estiver em um local apertado onde possa atingir um obstáculo, é necessário fazer uma rolagem de Atletismo -2. Se falhar, recebe dano igual a 2d6+×d6, onde x é sua penalidade de ataque sem modificadores, tratada como um valor positivo.</p>",
+      "modifiers": ""
+    },
+    {
+      "name": "Superperícia (Lutar +6)",
+      "rank": "",
+      "powerPoints": "",
+      "range": "",
+      "duration": "",
+      "damage": "",
+      "ap": "",
+      "activationSkill": "",
+      "manifestation": "<p>Rhaast era exímio soldado em marte, nesta forma ele é capaz de usar toda sua habilidade utilizando o corpo de Abel como marionete.</p>",
+      "description": "<p>Superperícia compra ou aumenta uma perícia (e seu máximo) em um tipo de dano por nível. Isso reflete treinamento extremo, talento ou aprimoramento sobrenatural de alguma forma.</p><p>Superperícia conta como um único poder, independentemente do número de perícias afetadas. Isso significa que um herói ou heroína de Nível 1 com um Limite de Poder 5, por exemplo, não pode gastar mais do que 5 pontos em todas as superperícias.</p><p>Cada nível custa um ponto, independentemente do atributo ligado e aumenta quaisquer características derivadas, como Aparar.</p>",
+      "modifiers": "<p>DISPOSITIVO (-2):</p><p>Desde que possam ser removidos, poderes recebem um desconto se derivam de um dispositivo em vez de alguma habilidade do super. O desconto depende do quão fácil é perder o Dispositivo.</p><p>Se o Dispositivo for um item que se \"veste\" ou é relativamente difícil de ser removido por um oponente, como uma parte de armadura, máscara, elmo ou cinto, reduza o custo em 1.</p><p>Se o item for facilmente removido – como um amuleto ou bandana, algo carregado na mão que possa cair ou ser desarmado – como um cajado mágico ou arma de fogo – reduza o custo em 2.</p><p>Um poder comprado como Dispositivo nunca funciona para outras personagens, não importa a forma que assuma. Dispositivos Perdidos: Se um Dispositivo for perdido, o herói ou heroína deve tentar recuperá-lo para recuperar seus poderes. Se destruído, o Mestre deve criar uma difícil aventura ou tarefa que eventualmente permita adquirir um substituto e recuperar suas habilidades.</p><p>Se uma heroína ou herói perder um Dispositivo que forneça Superatributo ou Superperícia, qualquer Vantagem ou habilidade que os tinham como Requisitos são perdidas até que o Dispositivo seja recuperado.</p>"
+    },
+    {
+      "name": "Aparar (3)",
+      "rank": "",
+      "powerPoints": "",
+      "range": "Pessoal",
+      "duration": "",
+      "damage": "",
+      "ap": "",
+      "activationSkill": "",
+      "manifestation": "<p>Rhaast fica intangível rapidamente evitando golpes que deveriam acerta-lo.</p>",
+      "description": "<p>O Aparar de sua personagem aumenta em +1 cada vez que este poder for adquirido, até um máximo de +5. Isso se acumula com outros bônus de Aparar de armas ou habilidades.</p>",
+      "modifiers": "<p>DISPOSITIVO (-2):</p><p>Desde que possam ser removidos, poderes recebem um desconto se derivam de um dispositivo em vez de alguma habilidade do super. O desconto depende do quão fácil é perder o Dispositivo.</p><p>Se o Dispositivo for um item que se \"veste\" ou é relativamente difícil de ser removido por um oponente, como uma parte de armadura, máscara, elmo ou cinto, reduza o custo em 1.</p><p>Se o item for facilmente removido – como um amuleto ou bandana, algo carregado na mão que possa cair ou ser desarmado – como um cajado mágico ou arma de fogo – reduza o custo em 2.</p><p>Um poder comprado como Dispositivo nunca funciona para outras personagens, não importa a forma que assuma. Dispositivos Perdidos: Se um Dispositivo for perdido, o herói ou heroína deve tentar recuperá-lo para recuperar seus poderes. Se destruído, o Mestre deve criar uma difícil aventura ou tarefa que eventualmente permita adquirir um substituto e recuperar suas habilidades.</p><p>Se uma heroína ou herói perder um Dispositivo que forneça Superatributo ou Superperícia, qualquer Vantagem ou habilidade que os tinham como Requisitos são perdidas até que o Dispositivo seja recuperado.</p>"
+    },
+    {
+      "name": "Ataque Corpo a Corpo (6)",
+      "rank": "",
+      "powerPoints": "",
+      "range": "2m",
+      "duration": "",
+      "damage": "Força+d8+4d6+1",
+      "ap": "1",
+      "activationSkill": "",
+      "manifestation": "<p>A Bastarda Sanguinária pulsa em energia avermelhada.</p>",
+      "description": "<p>Todas as personagens causam sua Força em dano quando atacam alguém com seus punhos e chutes com um ataque desarmado. Isso é gratuito e não está listado em sua ficha, a menos que ampliem isso com dano adicional (veja a tabela a seguir) ou tenham armas especiais ou naturais (veja os Modificadores).</p><p>Personagens também podem aumentar seu dano corpo a corpo usando este poder, que se aplica a todos os ataques de Lutar, armados ou desarmados.</p><p>Vantagens: O dado de dano de Vantagens como Brigão, Pugilista, Artista Marcial ou Guerreiro Marcial são adicionados ao ataque corpo a corpo da personagem. Por exemplo, heróis e heroínas com a Vantagem Artista Marcial e 4 pontos neste poder, rolam For+d4+2d6.</p><p>Armas: Adicione o dado de qualquer arma ao total. Por exemplo, um herói ou heroína com ataque corpo a corpo +2d6 é uma espada curta (+d6) causa For+3d6 de dano.</p><p>Habilidades Raciais: Personagens com as habilidades raciais Mordida, Garras ou Chifres ganham o modificador equivalente de graça.</p><p>Característica Alternativa: A Dificuldade para atingir um oponente com ataque corpo a corpo sempre é seu Aparar, mesmo que a perícia seja alterada de Lutar para outra.</p><p>FORMAS ADICIONAIS DE ATAQUE</p><p>Ataque [corpo a corpo é diferente da maioria dos poderes porque inclui quatro “formas de ataque” distintas: socos e chutes (o básico do poder), Mordidas, Garras e Armas Especiais.]</p><p>Modificadores como Perfurante de Armadura, Poderoso ou Arma Pesada se aplicam a cada uma das formas de ataque separadamente. Isso permite customizar cada forma, quem sabe dando ao herói ou heroína uma Mordida com PA 4, Garras com PA 6 e um martelo mágico com Arma Pesada.</p><p>O mesmo é válido para qualquer forma de ataque que use Dispositivo (p. 57). O desconto de Dispositivo pode ser adquirido separadamente para cada forma que se aplique, mas nunca diminuir o custo da forma abaixo de 1.</p>",
+      "modifiers": "<p>ARMA ESPECIAL (+2)</p><p>A personagem tem uma arma de mão única que adiciona +d6 de dano a seu ataque corpo a corpo além do dano normal da arma. Por exemplo, uma espada longa (For+d8) e o poder ataque corpo a corpo de +3d6, causaria For+d8+4d6 como uma Arma Especial. Aumente o dano adicional para +2d6 por +2 pontos, +3d6 por +4 pontos, +4d6 por +6 pontos ou +5d6 por +8 pontos. Arma Especial se acumula com ataque corpo a corpo, mas o dano máximo é +5d6. A arma tem todas as estatísticas usuais da arma em específico, como dano, bônus ou penalidades de Aparar etc.</p><p>Armas Perdidas: Se uma Arma Especial é perdida ou tomada, o herói ou heroína perde seus bônus. Se perdida ou destruída permanentemente, trabalhe com o Mestre para determinar como um substituto pode ser recuperado em uma aventura curta ou missão.</p><p>DISPOSITIVO (-2)</p><p>Desde que possam ser removidos, poderes recebem um desconto se derivam de um dispositivo em vez de alguma habilidade do super. O desconto depende do quão fácil é perder o Dispositivo.</p><p>Se o Dispositivo for um item que se \"veste\" ou é relativamente difícil de ser removido por um oponente, como uma parte de armadura, máscara, elmo ou cinto, reduza o custo em 1.</p><p>Se o item for facilmente removido – como um amuleto ou bandana, algo carregado na mão que possa cair ou ser desarmado – como um cajado mágico ou arma de fogo – reduza o custo em 2.</p><p>Um poder comprado como Dispositivo nunca funciona para outras personagens, não importa a forma que assuma. Dispositivos Perdidos: Se um Dispositivo for perdido, o herói ou heroína deve tentar recuperá-lo para recuperar seus poderes. Se destruído, o Mestre deve criar uma difícil aventura ou tarefa que eventualmente permita adquirir um substituto e recuperar suas habilidades.</p><p>Se uma heroína ou herói perder um Dispositivo que forneça Superatributo ou Superperícia, qualquer Vantagem ou habilidade que os tinham como Requisitos são perdidas até que o Dispositivo seja recuperado.</p>"
+    },
+    {
+      "name": "Ações Adicionais (10)",
+      "rank": "",
+      "powerPoints": "",
+      "range": "Pessoal",
+      "duration": "",
+      "damage": "",
+      "ap": "",
+      "activationSkill": "",
+      "manifestation": "<p>Rhaast costumava ser um exímio soldado, seus movimentos se tornam um borrão intencional. O mundo ao redor desacelera enquanto ele está em combate, enquanto seu corpo reage e se desloca entre os intervalos de um segundo, como se ele estivesse sempre um pensamento à frente do seu inimigo.</p>",
+      "description": "<p>Por cinco pontos, ações adicionais reduzem as penalidades de Ações Múltiplas da personagem em dois. Por exemplo, é possível fazer três ações com redutor de -2 cada, ou duas ações sem penalidades.</p><p>Por 10 pontos, o poder reduz as penalidades totais de Ações Múltiplas em quatro. É possível realizar três ações diferentes sem penalidades.</p><p>Por 15 pontos, a personagem tem um máximo de quatro ações por turno em vez de três. Isso aplica uma penalidade de Ações Múltiplas total de -6 (para três ações adicionais), mas é reduzida em 4, restando -2.</p><p>Ações adicionais acumula com quaisquer outras Vantagens ou poderes que reduzam as penalidades de Ações Múltiplas. Personagens ainda estão limitadas a três ações por turno (ou quatro, se adquirirem a opção de 15 pontos) e, como sempre, todas as ações devem ser declaradas antes de serem resolvidas. Se uma ação se tornar impossível, normalmente porque depende de uma ação anterior, ela é perdida.</p>",
+      "modifiers": "<p>APENAS FÍSICA (-1): O poder só tem efeito se todas as ações da personagem forem físicas (ligadas a Agilidade ou Força).</p><p><br></p><p>DISPOSITIVO (-2):</p><p>Desde que possam ser removidos, poderes recebem um desconto se derivam de um dispositivo em vez de alguma habilidade do super. O desconto depende do quão fácil é perder o Dispositivo.</p><p>Se o Dispositivo for um item que se \"veste\" ou é relativamente difícil de ser removido por um oponente, como uma parte de armadura, máscara, elmo ou cinto, reduza o custo em 1.</p><p>Se o item for facilmente removido – como um amuleto ou bandana, algo carregado na mão que possa cair ou ser desarmado – como um cajado mágico ou arma de fogo – reduza o custo em 2.</p><p>Um poder comprado como Dispositivo nunca funciona para outras personagens, não importa a forma que assuma. Dispositivos Perdidos: Se um Dispositivo for perdido, o herói ou heroína deve tentar recuperá-lo para recuperar seus poderes. Se destruído, o Mestre deve criar uma difícil aventura ou tarefa que eventualmente permita adquirir um substituto e recuperar suas habilidades.</p><p>Se uma heroína ou herói perder um Dispositivo que forneça Superatributo ou Superperícia, qualquer Vantagem ou habilidade que os tinham como Requisitos são perdidas até que o Dispositivo seja recuperado.</p>"
+    },
+    {
+      "name": "Esquiva (5)",
+      "rank": "",
+      "powerPoints": "",
+      "range": "Pessoal",
+      "duration": "",
+      "damage": "",
+      "ap": "",
+      "activationSkill": "Foco",
+      "manifestation": "<p>A consciência dupla neste corpo permite com que Abel ativamente fique intangível quando atacantes a distância o tem como alvo.</p>",
+      "description": "<p>A personagem é ágil, tem sentidos premonitórios ou é apenas boa usando cobertura. Ataques de longa distância diretos (Atirar e Atletismo (arremessar)) subtraem 1 para cada ponto neste poder, até um máximo de 5 por 5 Pontos de Superpoder.</p><p>Esquiva se acumula com outras habilidades que deem redutores a ataques de longa distância, até uma penalidade máxima de 10. Não oferece proteção contra ataques que afetem área.</p>",
+      "modifiers": "<p>REQUER ATIVAÇÃO (-2): O herói ou heroína deve fazer uma rolagem de Foco como uma ação para ativar esta habilidade. Se perder concentração, seu poder Desliga e deve ser reativado (veja a p. 53).</p><p><br></p><p>DISPOSITIVO (-2):</p><p>Desde que possam ser removidos, poderes recebem um desconto se derivam de um dispositivo em vez de alguma habilidade do super. O desconto depende do quão fácil é perder o Dispositivo.</p><p>Se o Dispositivo for um item que se \"veste\" ou é relativamente difícil de ser removido por um oponente, como uma parte de armadura, máscara, elmo ou cinto, reduza o custo em 1.</p><p>Se o item for facilmente removido – como um amuleto ou bandana, algo carregado na mão que possa cair ou ser desarmado – como um cajado mágico ou arma de fogo – reduza o custo em 2.</p><p>Um poder comprado como Dispositivo nunca funciona para outras personagens, não importa a forma que assuma. Dispositivos Perdidos: Se um Dispositivo for perdido, o herói ou heroína deve tentar recuperá-lo para recuperar seus poderes. Se destruído, o Mestre deve criar uma difícil aventura ou tarefa que eventualmente permita adquirir um substituto e recuperar suas habilidades.</p><p>Se uma heroína ou herói perder um Dispositivo que forneça Superatributo ou Superperícia, qualquer Vantagem ou habilidade que os tinham como Requisitos são perdidas até que o Dispositivo seja recuperado.</p>"
+    },
+    {
+      "name": "Armadura (4)",
+      "rank": "",
+      "powerPoints": "",
+      "range": "Pessoal",
+      "duration": "",
+      "damage": "",
+      "ap": "",
+      "activationSkill": "",
+      "manifestation": "<p>Rhaast transforma parte do seu corpo em uma armadura de placas.</p>",
+      "description": "<p>A personagem ganha 2 pontos de armadura cada vez que este poder for comprado.</p><p>Armadura não se acumula com armaduras vestidas, mas se acumula com armadura natural e o poder resistência (p. 99).</p><p>Pontos fracos, pequenas falhas ou juntas podem ser atravessadas com um Ataque Localizado -6. Para 100% de proteção, use resistência (p. 99).</p><p>Resistência Máxima: Os bônus combinados dos poderes resistência e armadura não podem exceder o Limite de Poder. A Resistência total é ilimitada (proveniente de aumento de Vigor, Tamanho etc.). Um super de Nível II, por exemplo, tem um Limite de Poder 10. Poderia ter 6 pontos de armadura e resistência +4 (p. 99), ou qualquer outra combinação de um total de 10 pontos ou menos para adicionar à sua Resistência.</p>",
+      "modifiers": "<p>DISPOSITIVO (-2):</p><p>Desde que possam ser removidos, poderes recebem um desconto se derivam de um dispositivo em vez de alguma habilidade do super. O desconto depende do quão fácil é perder o Dispositivo.</p><p>Se o Dispositivo for um item que se \"veste\" ou é relativamente difícil de ser removido por um oponente, como uma parte de armadura, máscara, elmo ou cinto, reduza o custo em 1.</p><p>Se o item for facilmente removido – como um amuleto ou bandana, algo carregado na mão que possa cair ou ser desarmado – como um cajado mágico ou arma de fogo – reduza o custo em 2.</p><p>Um poder comprado como Dispositivo nunca funciona para outras personagens, não importa a forma que assuma. Dispositivos Perdidos: Se um Dispositivo for perdido, o herói ou heroína deve tentar recuperá-lo para recuperar seus poderes. Se destruído, o Mestre deve criar uma difícil aventura ou tarefa que eventualmente permita adquirir um substituto e recuperar suas habilidades.</p><p>Se uma heroína ou herói perder um Dispositivo que forneça Superatributo ou Superperícia, qualquer Vantagem ou habilidade que os tinham como Requisitos são perdidas até que o Dispositivo seja recuperado.</p>"
+    },
+    {
+      "name": "Superatributo (Força +2)",
+      "rank": "",
+      "powerPoints": "",
+      "range": "Pessoal",
+      "duration": "",
+      "damage": "",
+      "ap": "",
+      "activationSkill": "",
+      "manifestation": "<p>Rhaast encobre o corpo de Abel como um exoesqueleto vivo. É a própria matéria marciana, densa e metamórfica, que se contrai e desfere golpes, transformando o corpo do hospedeiro em um instrumento de força pura e esmagadora.</p>",
+      "description": "<p>Este poder aumenta o atributo escolhido em um tipo de dado por nível. Isso também afeta as Estatísticas Derivadas, como Resistência. Arredonde para baixo se exceder d12 (Vigor d12+1 possui Resistência 8).</p><p>Cada nível em superatributo também aumenta o máximo do atributo na mesma quantidade.</p><p>Cada atributo afetado é um poder separado e sujeito ao Limite de Poder da campanha de forma individual.</p>",
+      "modifiers": "<p>DISPOSITIVO (-2):</p><p>Desde que possam ser removidos, poderes recebem um desconto se derivam de um dispositivo em vez de alguma habilidade do super. O desconto depende do quão fácil é perder o Dispositivo.</p><p>Se o Dispositivo for um item que se \"veste\" ou é relativamente difícil de ser removido por um oponente, como uma parte de armadura, máscara, elmo ou cinto, reduza o custo em 1.</p><p>Se o item for facilmente removido – como um amuleto ou bandana, algo carregado na mão que possa cair ou ser desarmado – como um cajado mágico ou arma de fogo – reduza o custo em 2.</p><p>Um poder comprado como Dispositivo nunca funciona para outras personagens, não importa a forma que assuma. Dispositivos Perdidos: Se um Dispositivo for perdido, o herói ou heroína deve tentar recuperá-lo para recuperar seus poderes. Se destruído, o Mestre deve criar uma difícil aventura ou tarefa que eventualmente permita adquirir um substituto e recuperar suas habilidades.</p><p>Se uma heroína ou herói perder um Dispositivo que forneça Superatributo ou Superperícia, qualquer Vantagem ou habilidade que os tinham como Requisitos são perdidas até que o Dispositivo seja recuperado.</p>"
+    }
+  ],
+  "biography": "<p>Abel, um jovem curioso com o dom de atravessar paredes, vasculhava as terras arrasadas pela Guerra dos Três Reinos quando encontrou uma adaga negra e incomum. Ele a chamou de Adaga Sanguinária. A lâmina perdia seu fio irremediavelmente sem contato com sangue e, quando o tocava, emitia uma vibração soturna. Amolá-la era inútil; apenas o sangue restaurava seu corte.</p><p>Alguns dias após o conflito, na floresta, ele avistou uma carruagem fortemente custodiada por agentes de Amanda Waller. Dentro, um prisioneiro marciano branco definhava, à beira da morte. Abel, espreitando de dentro da parede da carruagem, viu uma oportunidade. Sussurrou uma proposta: \"Eu sei do que você é capaz. Possua esta adaga mágica, e eu te libertarei\".</p><p>O marciano, Rhaast, aceitou o pacto. Agora, Rhaast habita a adaga e concede parte de seu poder a Abel. Em troca, quando a necessidade é extrema, Abel permite que Rhaast assuma temporariamente o controle de seu corpo, transformando-os numa força de combate formidável e simbiótica.</p>"
 }

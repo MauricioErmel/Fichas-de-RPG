@@ -182,17 +182,19 @@ function calculateMaxWeight(strengthDie) {
 /**
  * Calculate total carried weight from equipment
  * @param {object} equipment - Equipment object with weapons, armor, shields, gear
+ * @param {object} equipmentStatusOverrides - Optional status overrides from volatile state
  * @returns {number} Total weight in kg
  */
-function calculateTotalWeight(equipment) {
+function calculateTotalWeight(equipment, equipmentStatusOverrides = {}) {
     let total = 0;
 
     const processItems = (items) => {
         if (!items) return;
         items.forEach(item => {
-            if (item.status === 'equipped') {
+            const status = equipmentStatusOverrides[item.name] || item.status;
+            if (status === 'equipped') {
                 total += item.weight || 0;
-            } else if (item.status === 'carried') {
+            } else if (status === 'carried') {
                 total += (item.weight || 0) / 2;
             }
             // 'stored' items don't count

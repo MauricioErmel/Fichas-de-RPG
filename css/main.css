@@ -423,6 +423,14 @@ main {
     line-height: 1.6;
 }
 
+.modifiers-section {
+    padding-top: 0.75rem;
+    margin-top: 0.75rem;
+    border-top: 1px dashed var(--fallback-bc, oklch(var(--bc) / 0.15));
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
 /* ===========================================
    Equipment Section
    =========================================== */
@@ -470,6 +478,14 @@ main {
     font-size: 0.75rem;
     padding: 0.125rem 0.5rem;
     border-radius: 0.25rem;
+    cursor: pointer;
+    transition: opacity var(--transition-speed), transform var(--transition-speed);
+    user-select: none;
+}
+
+.equipment-item .item-status:hover {
+    opacity: 0.7;
+    transform: scale(1.05);
 }
 
 .equipment-item .item-stats {

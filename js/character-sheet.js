@@ -413,7 +413,8 @@ const CharacterSheet = {
     renderEquipment(char) {
         const equipment = char.equipment || {};
         const strengthDie = char.attributes?.strength || 'd4';
-        const totalWeight = calculateTotalWeight(equipment);
+        const equipStatus = this.volatileState.equipmentStatus || {};
+        const totalWeight = calculateTotalWeight(equipment, equipStatus);
         const maxWeight = calculateMaxWeight(strengthDie);
         const isOverweight = totalWeight > maxWeight;
 
@@ -451,7 +452,7 @@ const CharacterSheet = {
                         <div class="equipment-item ${!meetsStr ? 'warning' : ''}">
                             <div class="item-header">
                                 <span class="item-name">${w.name}</span>
-                                <span class="badge item-status">${t('equipment.status.' + status)}</span>
+                                <span class="badge item-status" data-equip-name="${w.name}" data-equip-status="${status}">${t('equipment.status.' + status)}</span>
                             </div>
                             <div class="item-stats">
                                 <span><strong>${t('equipment.damage')}:</strong> 
@@ -491,7 +492,7 @@ const CharacterSheet = {
                         <div class="equipment-item ${!meetsStr ? 'warning' : ''}">
                             <div class="item-header">
                                 <span class="item-name">${a.name}</span>
-                                <span class="badge item-status">${t('equipment.status.' + status)}</span>
+                                <span class="badge item-status" data-equip-name="${a.name}" data-equip-status="${status}">${t('equipment.status.' + status)}</span>
                             </div>
                             <div class="item-stats">
                                 <span><strong>${t('equipment.armorValue')}:</strong> +${a.armorValue || 0}</span>
@@ -525,7 +526,7 @@ const CharacterSheet = {
                         <div class="equipment-item ${!meetsStr ? 'warning' : ''}">
                             <div class="item-header">
                                 <span class="item-name">${s.name}</span>
-                                <span class="badge item-status">${t('equipment.status.' + status)}</span>
+                                <span class="badge item-status" data-equip-name="${s.name}" data-equip-status="${status}">${t('equipment.status.' + status)}</span>
                             </div>
                             <div class="item-stats">
                                 <span><strong>${t('equipment.parryBonus')}:</strong> +${s.parryBonus || 0}</span>
@@ -558,7 +559,7 @@ const CharacterSheet = {
                         <div class="equipment-item">
                             <div class="item-header">
                                 <span class="item-name">${g.name}</span>
-                                <span class="badge item-status">${t('equipment.status.' + status)}</span>
+                                <span class="badge item-status" data-equip-name="${g.name}" data-equip-status="${status}">${t('equipment.status.' + status)}</span>
                             </div>
                             <div class="item-stats">
                                 <span><strong>${t('header.weight')}:</strong> ${g.weight || 0} kg</span>
@@ -603,6 +604,7 @@ const CharacterSheet = {
                                 ${p.ap && p.ap !== 'Não se aplica' ? `<p><strong>${t('powers.ap')}:</strong> ${p.ap}</p>` : ''}
                                 ${p.activationSkill && p.activationSkill !== 'Não se aplica' ? `<p><strong>${t('powers.activationSkill')}:</strong> ${p.activationSkill}</p>` : ''}
                                 ${p.description ? `<div class="mt-2">${p.description}</div>` : ''}
+                                ${p.modifiers ? `<div class="modifiers-section mt-2"><strong>Modificadores:</strong>${p.modifiers}</div>` : ''}
                             </div>
                         </div>
                     </div>
@@ -687,6 +689,16 @@ const CharacterSheet = {
                 }
             });
         });
+
+        // Equipment status toggle
+        container.querySelectorAll('.item-status[data-equip-name]').forEach(el => {
+            el.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const itemName = el.dataset.equipName;
+                const currentStatus = el.dataset.equipStatus;
+                this.cycleEquipmentStatus(itemName, currentStatus);
+            });
+        });
     },
 
     /**
@@ -767,6 +779,22 @@ const CharacterSheet = {
                 status.distracted = false;
             }
         }
+
+        this.saveState();
+        this.render();
+    },
+
+    /**
+     * Cycle equipment status: equipped → carried → stored → equipped
+     */
+    cycleEquipmentStatus(itemName, currentStatus) {
+        const cycle = { equipped: 'carried', carried: 'stored', stored: 'equipped' };
+        const newStatus = cycle[currentStatus] || 'equipped';
+
+        if (!this.volatileState.equipmentStatus) {
+            this.volatileState.equipmentStatus = {};
+        }
+        this.volatileState.equipmentStatus[itemName] = newStatus;
 
         this.saveState();
         this.render();

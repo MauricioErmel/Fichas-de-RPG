@@ -270,7 +270,8 @@ const CharacterCreation = {
             <button type="button" class="btn btn-sm btn-ghost" data-remove-power="${i}">✕</button>
         </div>
         <div class="w-full mt-2"><label class="label text-sm">Manifestação</label><div class="quill-container" data-power-manifestation="${i}"></div></div>
-        <div class="w-full mt-2"><label class="label text-sm">Descrição</label><div class="quill-container" data-power-description="${i}"></div></div></div>`;
+        <div class="w-full mt-2"><label class="label text-sm">Descrição</label><div class="quill-container" data-power-description="${i}"></div></div>
+        <div class="w-full mt-2"><label class="label text-sm font-bold">Modificadores</label><div class="quill-container" data-power-modifiers="${i}"></div></div></div>`;
     },
 
     renderBiography(char) {

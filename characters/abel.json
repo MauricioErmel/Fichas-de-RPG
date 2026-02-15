@@ -83,49 +83,58 @@
     {
       "name": "Superpoderes",
       "requirements": "Novato",
-      "description": "<p>Esta Vantagem concede à personagem um número de \"Pontos de Superpoder\" que podem ser usados para comprar superpoderes listados no Capítulo Quatro.</p>"
+      "description": "<p>Esta Vantagem concede à personagem um número de \"Pontos de Superpoder\" que podem ser usados para comprar superpoderes listados no Capítulo Quatro. O número exato de Pontos de Superpoder com que personagens jogadoras começam o jogo depende do Nível de Poder da Campanha, escolhido pelo Mestre e mostrados a seguir. Se quem estiver mestrando quiser uma campanha de heróis e heroínas pulp ou desenvolver superadolescentes, pode ser usado o Nível de Poder I. Se quiser uma campanha cósmica, pode ir até o topo e escolher o Nível de Poder V. Veja os Níveis de Poder na coluna lateral para mais detalhes.</p>",
+      "modifiers": "<p><br></p>"
     },
     {
       "name": "Frenesi",
       "requirements": "Experiente, Lutar d8+",
-      "description": "<p>Como uma ação limitada, personagens com Frenesi podem rolar um segundo dado de Lutar com qualquer um de seus ataques de Lutar naquele turno.</p>"
+      "description": "<p>Como uma ação limitada, personagens com Frenesi podem rolar um segundo dado de Lutar com qualquer um de seus ataques de Lutar naquele turno. O dado extra pode ser alocado para o mesmo alvo ou para alvos diferentes, conforme ele achar adequado. Resolva cada um separadamente.</p>",
+      "modifiers": "<p><br></p>"
     },
     {
       "name": "Frenesi Aprimorado",
       "requirements": "Veterano, Frenesi",
-      "description": "<p>Como Frenesi, mas adiciona um terceiro dado de Lutar a seu ataque feito com Frenesi neste turno.</p>"
+      "description": "<p>Como Frenesi, mas adiciona um terceiro dado de Lutar a seu ataque feito com Frenesi neste turno.</p><p>Exemplo: Red ataca desesperadamente uma criatura gigante com aspecto de caranguejo em um planeta alienígena. Ela tem Frenesi Aprimorado e decide atacar três vezes (uma Ação Múltipla com a penalidade habitual). Ela rola sua perícia Lutar com dois dados extras no primeiro ataque. Ela não tem dados extras na sua segunda e terceira rolagem de Lutar.</p>",
+      "modifiers": "<p><br></p>"
     },
     {
       "name": "Carismático",
       "requirements": "Novato, Espírito d8+",
-      "description": "<p>Confere simpatia por alguma razão. Você tem uma rerrolagem gratuita em rolagens de Persuadir.</p>"
+      "description": "<p>Confere simpatia por alguma razão. Pode ser confiável, agir com bondade ou apenas pode transparecer confiança e boa vontade. Você tem uma rerrolagem gratuita em rolagens de Persuadir.</p>",
+      "modifiers": "<p><br></p>"
     },
     {
       "name": "Impulso",
       "requirements": "Novato, Espírito d8+",
-      "description": "<p>Quando você gasta um Bene para rerrolar uma Característica, adicione +2 ao total.</p>"
+      "description": "<p>equisitos: Novato, Espírito d8+</p><p>[Impulso tem a ver com energia ou espírito.</p><p>Pessoas que o possuem estão à altura da situação quando a coisa fica feia. Quando você gasta um Bene para rerrolar uma Característica, adicione +2 ao total. O bônus se aplica apenas na rerrolagem. Não se aplica a rolagens de dano (já que não são uma rolagem de Característica), também não se aplica a rolagens de Absorção a menos que você esteja usando outro Bene para rerrolar o teste de Vigor.</p>",
+      "modifiers": "<p><br></p>"
     }
   ],
   "hindrances": [
     {
       "name": "Arrogante",
       "type": "major",
-      "description": "<p>Personagens arrogantes não se acham melhores, sabem que são. Só vencer não é o bastante, é preciso dominar completamente quem se opuser.</p>"
+      "description": "<p>Personagens arrogantes não se acham melhores, sabem que são. Seja no que for – esgrima, kung fu, pintura – aproveitam cada oportunidade para ostentar que quase ninguém se compara às suas habilidades.</p><p>Só vencer não é o bastante, é preciso dominar completamente quem se opuser e provar sua superioridade. É o tipo de pessoa que desarma oponentes em um duelo só para poder pegar a sua espada e devolvê-la com um sorriso desdenhoso. Personagens arrogantes sempre procuram pela maior ameaça em batalha, atacando rivais menores apenas se ficarem em seu caminho.</p>",
+      "modifiers": "<p><br></p>"
     },
     {
       "name": "Curioso",
       "type": "major",
-      "description": "<p>A curiosidade matou o gato e também pode matar personagens com esta Complicação. Irão checar tudo e sempre querem saber o que há por trás de um mistério.</p>"
+      "description": "<p>A curiosidade matou o gato e também pode matar personagens com esta Complicação. Irão checar tudo e sempre querem saber o que há por trás de um mistério ou segredo em potencial.</p>",
+      "modifiers": "<p><br></p>"
     },
     {
       "name": "Ganancioso",
       "type": "minor",
-      "description": "<p>Personagens com essa complicação agem com avareza, medindo valor em bens comerciais ou riqueza.</p>"
+      "description": "<p>Personagens com essa complicação agem com avareza, medindo valor em bens comerciais ou riqueza. Como uma Complicação Menor, argumentam amargamente querendo mais do que sua parte em qualquer despojo adquirido durante o jogo. Se for uma Complicação Maior, lutam por qualquer coisa que considerem injusta e podem até mesmo matar ao se sentirem alvo de menosprezo ou cobiçarem algo que não possam ter.</p>",
+      "modifiers": "<p><br></p>"
     },
     {
       "name": "Sensível",
       "type": "minor",
-      "description": "<p>Ataques pessoais deixam este indivíduo especialmente irritado. Subtrai 2 quando resiste a Provocar.</p>"
+      "description": "<p>Ataques pessoais deixam este indivíduo especialmente irritado. Como uma Complicação Menor subtrai 2 quando resiste a Provocar. Como uma Maior, subtrai 4.</p>",
+      "modifiers": "<p><br></p>"
     }
   ],
   "equipment": {
@@ -179,7 +188,8 @@
       "ap": "",
       "activationSkill": "",
       "manifestation": "<p>Abel fica com a pele pálida, seu cabelo ruivo escuro vira azul escuro e fica solto flutuando como se estivesse submerso, seus olhos ficam totalmente negros, a pintura de seu rosto muda do vermelho para o azul e seu corpo ganha uma aura escura de sombras.</p>",
-      "description": "<p>Intangibilidade faz com que a personagem não seja capaz de afetar ou ser afetada por ataques físicos, como um fantasma ou espírito. Tornar-se intangível é uma ação. Tornar-se tangível é uma ação livre.</p>"
+      "description": "<p>Intangibilidade faz com que a personagem não seja capaz de afetar ou ser afetada por ataques físicos, como um fantasma ou espírito. Tipos de Poder baseados em Energia afetam personagens intangíveis normalmente – adquira resistência para resistir melhor contra estes Tipos de Poder.</p><p>O poder permite que super-heróis atravessem paredes ou outras barreiras, mas não são invisíveis (adquira invisibilidade para isso).</p><p>Tornar-se intangível é uma ação. Enquanto intangível, quaisquer itens que a personagem carregue também se tornam intangíveis e não funcionam. Seres carregados pela personagem caem.</p><p>Tornar-se tangível é uma ação livre.</p><p>Mudança: Uma personagem intangível pode fazer um ataque e então ficar tangível novamente. Oponentes que desejem atacar alguém intangível devem Aguardar e ter sucesso em interromper o ataque.</p><p>Ferimentos: Uma heroína ou herói intangível pode causar dano em inimigos ao mudar de fase dentro de um oponente (normalmente uma mão no peito). Isso é uma rolagem resistida de Foco contra o Atletismo ou Vigor do alvo (escolha de quem defende). Se quem ataca vencer, a vítima recebe um Ferimento (dois com uma ampliação).</p><p>Se a rolagem de Foco for uma Falha Crítica, em vez disso quem ataca recebe um Ferimento!</p><p>Desligamento: O efeito de intangibilidade termina se perder a concentração. Veja Desligamento na p. 53. Ignore isso se adquirir o modificador Permanente.</p>",
+      "modifiers": ""
     },
     {
       "name": "Voo",
@@ -191,7 +201,8 @@
       "ap": "",
       "activationSkill": "",
       "manifestation": "<p>Os cabelos e as roupas de Abel flutuam como se estivessem submersos e ele é capaz de voar de forma veloz.</p>",
-      "description": "<p>A heroína ou herói pode se mover rápida e facilmente pelo ar. Voar em linha reta é fácil, mas fazer curvas e manobras é problemático.</p>"
+      "description": "<p>Poucos poderes são tão icônicos para cenários de supers como a habilidade de voar! Quer você voe como um pássaro, deslize por aí em pontes de gelo ou surfe em redes elétricas, sua heroína ou herói pode se mover rápida e facilmente.</p><p>Penalidade de Ataque:</p><p>As Penalidades de Ataque listadas a seguir são subtraídas de qualquer ataque corpo a corpo ou de longa distância contra a personagem voadora, assumindo que ela seja capaz de se mover àquela velocidade. Ignore a penalidade se a personagem não estiver se movendo ou estiver confinada a um espaço pequeno.</p><p>A penalidade se acumula com todas as outras penalidades de ataque, exceto aquelas provenientes de velocidade (natural ou de poderes) até um máximo de -10.</p><p>Fora de Controle:</p><p>Se uma heroína ou herói ficar em Estado Abalado, Atordoado ou receber um Ferimento e estiver em um local apertado onde possa atingir um obstáculo, é necessário fazer uma rolagem de Atletismo -2. Se falhar, recebe dano igual a 2d6+×d6, onde x é sua penalidade de ataque sem modificadores, tratada como um valor positivo.</p>",
+      "modifiers": "<p><strong>DESAJEITADO (-2):</strong></p><p>Este modificador só pode ser adquirido se a Movimentação de 100 é 45 ou maior. Voar em linha reta é fácil, mas fazer curvas e manobras é problemático, reduzindo a penalidade de ataque em 2. Ao se mover em Velocidade Supersônica, por exemplo, a penalidade de ataque seria -6 em vez de -8. A heroína ou herói também tem que fazer rolagens de Atletismo com -4 para evitar colisões. Não pode adquirir o modificador Desajeitado se pegar Manobrável.</p>"
     },
     {
       "name": "Camaleão",
@@ -203,7 +214,8 @@
       "ap": "",
       "activationSkill": "Foco",
       "manifestation": "<p>A pele, cabelo, roupas e itens de Abel são cobertos por uma película negra que se dispersa revelando a nova forma.</p>",
-      "description": "<p>Mudar de aparência requer uma ação e uma rolagem de Foco. Os detalhes são tão bons quanto o super puder observar.</p>"
+      "description": "<p>Mudar de aparência requer uma ação e uma rolagem de Foco.</p><p>Os detalhes são tão bons quanto o super puder observar, mas não pode replicar digitais, escaneamento de retinas ou enganar scanners de voz eletrônicos. Entretanto, se a tiver escutado, é possível imitar a voz do alvo com Performance (ou adquirindo o modificador Biometria, a seguir).</p><p>Alguém familiarizado com o alvo original e que suspeite do camaleão recebe uma rolagem de Perceber resistida pela Performance do super uma vez por encontro para detectar a enganação. Uma personagem que suspeite ainda pode fazer questões para detectar o impostor, mas a rolagem para ver através do disfarce só pode ser tentada uma vez por encontro.</p><p>O uso de camaleão não concede as habilidades de Características do alvo – apenas sua aparência. Uma personagem com camaleão é mimetismo também pode copiar os superpoderes, o que a torna muito convincente!</p><p>Desligamento: O efeito de camaleão termina se a concentração for perdida. Veja Desligamento na p. 53.</p>",
+      "modifiers": "<h3>BIOMETRIA (+2):</h3><p>O uso de <em>camaleão</em> pode replicar a voz, digitais, retinas e outros marcadores do alvo. Rolagens de Perceber para detectar a enganação são feitas com -2.</p><p><br></p><h3>DISPOSITIVO (-2)</h3><p>Desde que possam ser removidos, poderes recebem um desconto se derivam de um dispositivo em vez de alguma habilidade do super. O desconto depende do quão fácil é perder o Dispositivo.</p><p>Se o Dispositivo for um item que se \"veste\" ou é relativamente difícil de ser removido por um oponente, como uma parte de armadura, máscara, elmo ou cinto, reduza o custo em 1.</p><p>Se o item for facilmente removido – como um amuleto ou bandana, algo carregado na mão que possa cair ou ser desarmado – como um cajado mágico ou arma de fogo – reduza o custo em 2.</p><p>Um poder comprado como Dispositivo nunca funciona para outras personagens, não importa a forma que assuma. Dispositivos Perdidos: Se um Dispositivo for perdido, o herói ou heroína deve tentar recuperá-lo para recuperar seus poderes. Se destruído, o Mestre deve criar uma difícil aventura ou tarefa que eventualmente permita adquirir um substituto e recuperar suas habilidades.</p><p>Se uma heroína ou herói perder um Dispositivo que forneça Superatributo ou Superperícia, qualquer Vantagem ou habilidade que os tinham como Requisitos são perdidas até que o Dispositivo seja recuperado.</p>"
     },
     {
       "name": "Invisibilidade",
@@ -215,7 +227,8 @@
       "ap": "",
       "activationSkill": "",
       "manifestation": "<p>Uma aura negra envolve Abel e o consome fazendo-o sumir.</p>",
-      "description": "<p>Tornar-se invisível é uma ação, deixando a personagem instantaneamente difícil de enxergar. Tentativas de perceber e atacar diretamente alguém invisível sofrem uma penalidade de -4.</p>"
+      "description": "<p>Tornar-se invisível é uma ação, deixando a personagem e seu equipamento instantaneamente difíceis de enxergar. Tentativas de perceber e atacar diretamente alguém invisível sofrem uma penalidade de -4.</p><p>Se uma personagem invisível fizer algo óbvio, como ficar na chuva, a penalidade de ataque é reduzida à metade por aquele turno e não é necessário rolagem de Perceber para detectar sua presença.</p><p>Tornar-se visível é uma ação livre.</p><p>Desligamento: O efeito de invisibilidade termina se a concentração for perdida. Veja Desligamento na p. 53. Ignore isso se adquirir o modificador Permanente.</p>",
+      "modifiers": "<h3>DISPOSITIVO (-2)</h3><p>Desde que possam ser removidos, poderes recebem um desconto se derivam de um dispositivo em vez de alguma habilidade do super. O desconto depende do quão fácil é perder o Dispositivo.</p><p>Se o Dispositivo for um item que se \"veste\" ou é relativamente difícil de ser removido por um oponente, como uma parte de armadura, máscara, elmo ou cinto, reduza o custo em 1.</p><p>Se o item for facilmente removido – como um amuleto ou bandana, algo carregado na mão que possa cair ou ser desarmado – como um cajado mágico ou arma de fogo – reduza o custo em 2.</p><p>Um poder comprado como Dispositivo nunca funciona para outras personagens, não importa a forma que assuma. Dispositivos Perdidos: Se um Dispositivo for perdido, o herói ou heroína deve tentar recuperá-lo para recuperar seus poderes. Se destruído, o Mestre deve criar uma difícil aventura ou tarefa que eventualmente permita adquirir um substituto e recuperar suas habilidades.</p><p>Se uma heroína ou herói perder um Dispositivo que forneça Superatributo ou Superperícia, qualquer Vantagem ou habilidade que os tinham como Requisitos são perdidas até que o Dispositivo seja recuperado.</p>"
     },
     {
       "name": "Leitura Mental",
@@ -227,7 +240,8 @@
       "ap": "",
       "activationSkill": "Foco",
       "manifestation": "<p>O olho na Adaga Sanguinária se arregala, Rhaast lê a mente do alvo e passa a informação para Abel telepaticamente.</p>",
-      "description": "<p>Leitura mental permite à personagem ler os pensamentos superficiais de outra pessoa. Para ler a mente de alguém, é necessário escolher um alvo dentro de 6 quadros (12 metros) e fazer uma rolagem de Foco.</p>"
+      "description": "<p>Leitura mental permite à personagem ler os pensamentos superficiais de outra pessoa e, quem sabe, até memórias antigas.</p><p>Para ler a mente de alguém, é necessário escolher um alvo dentro de 6 quadros (12 metros) e fazer uma rolagem de Foco. Se bem-sucedida, o alvo faz uma rolagem de Astúcia para resistir (-2 com uma ampliação na rolagem de Foco).</p><p>Se o leitor falhar na rolagem de Foco, o alvo sabe que algo está acontecendo – tentativas futuras para ler a mente são feitas com -2 pelo resto do encontro). Uma Falha Crítica significa que o psíquico não pode mais ler a mente do alvo pelo resto do encontro.</p><p>Se o alvo resistir, não há efeito adicional e o leitor pode tentar novamente quando quiser. Se o alvo resistir com uma ampliação, ele sabe que algo está acontecendo e tentativas futuras pelo resto do encontro adicionam +2 na resistência.</p><p>Se o leitor for bem-sucedido e o alvo falhar na resistência, o psíquico pode detectar os pensamentos superficiais e emoções. Uma ampliação revela mais informações. Por exemplo, sucesso contra alguém que esteja mentido revela que está mentindo. Uma ampliação pode lhe dar uma ideia geral sobre a mentira. Não revela a mentira em si – isso requer Mergulho Profundo, a seguir.</p><p>Mergulho Profundo: É muito mais fácil navegar na complexa mente humana quando o alvo está sedado, inconsciente ou dormindo. Cada tentativa contra uma vítima em um desses estados leva dez minutos, mas aumenta consideravelmente as informações adquiridas. Sucesso age como uma ampliação, e uma ampliação geralmente revela tudo que o psíquico quer saber.</p><p>Falha simplesmente gasta o tempo do psiquicista – é possível tentar novamente. Uma Falha Crítica fecha a mente da vítima, e nenhum progresso é possível pelo resto do encontro.</p>",
+      "modifiers": "<h3>FORTE (+2)</h3><p>rolagem para resistir a leitura mental é feita com uma penalidade adicional de -2.</p><h3>DISPOSITIVO (-2)</h3><p>Desde que possam ser removidos, poderes recebem um desconto se derivam de um dispositivo em vez de alguma habilidade do super. O desconto depende do quão fácil é perder o Dispositivo.</p><p>Se o Dispositivo for um item que se \"veste\" ou é relativamente difícil de ser removido por um oponente, como uma parte de armadura, máscara, elmo ou cinto, reduza o custo em 1.</p><p>Se o item for facilmente removido – como um amuleto ou bandana, algo carregado na mão que possa cair ou ser desarmado – como um cajado mágico ou arma de fogo – reduza o custo em 2.</p><p>Um poder comprado como Dispositivo nunca funciona para outras personagens, não importa a forma que assuma. Dispositivos Perdidos: Se um Dispositivo for perdido, o herói ou heroína deve tentar recuperá-lo para recuperar seus poderes. Se destruído, o Mestre deve criar uma difícil aventura ou tarefa que eventualmente permita adquirir um substituto e recuperar suas habilidades.</p><p>Se uma heroína ou herói perder um Dispositivo que forneça Superatributo ou Superperícia, qualquer Vantagem ou habilidade que os tinham como Requisitos são perdidas até que o Dispositivo seja recuperado.</p>"
     },
     {
       "name": "Telepatia",
@@ -239,7 +253,8 @@
       "ap": "",
       "activationSkill": "",
       "manifestation": "<p>Abel se comunica com outro ser através da Adaga Sanguinária. O outro indivíduo ouve a voz gultural de Rhaast em sua mente.</p>",
-      "description": "<p>A personagem pode se comunicar com qualquer mente inteligente à sua escolha a até 1,5 quilômetro.</p>"
+      "description": "<p>A personagem pode se comunicar com qualquer mente inteligente à sua escolha a até 24 quadros (48 metros).</p>",
+      "modifiers": "<p>ALANCE (+2): A telepatia pode ser usada para contatar qualquer mente inteligente a até 1,5 quilômetro.</p><p><br></p><p>DISPOSITIVO (-2):</p><p>Desde que possam ser removidos, poderes recebem um desconto se derivam de um dispositivo em vez de alguma habilidade do super. O desconto depende do quão fácil é perder o Dispositivo.</p><p>Se o Dispositivo for um item que se \"veste\" ou é relativamente difícil de ser removido por um oponente, como uma parte de armadura, máscara, elmo ou cinto, reduza o custo em 1.</p><p>Se o item for facilmente removido – como um amuleto ou bandana, algo carregado na mão que possa cair ou ser desarmado – como um cajado mágico ou arma de fogo – reduza o custo em 2.</p><p>Um poder comprado como Dispositivo nunca funciona para outras personagens, não importa a forma que assuma. Dispositivos Perdidos: Se um Dispositivo for perdido, o herói ou heroína deve tentar recuperá-lo para recuperar seus poderes. Se destruído, o Mestre deve criar uma difícil aventura ou tarefa que eventualmente permita adquirir um substituto e recuperar suas habilidades.</p><p>Se uma heroína ou herói perder um Dispositivo que forneça Superatributo ou Superperícia, qualquer Vantagem ou habilidade que os tinham como Requisitos são perdidas até que o Dispositivo seja recuperado.</p>"
     },
     {
       "name": "Superperícia (Foco +4)",
@@ -251,7 +266,8 @@
       "ap": "",
       "activationSkill": "",
       "manifestation": "<p>A presença alienígena na mente de Abel sintoniza seus sentidos, filtrando distrações e amplificando sua concentração até um ponto sobrenatural.</p>",
-      "description": "<p>Superperícia compra ou aumenta uma perícia (e seu máximo) em um tipo de dano por nível. Isso reflete treinamento extremo, talento ou aprimoramento sobrenatural.</p>"
+      "description": "<p>Superperícia compra ou aumenta uma perícia (e seu máximo) em um tipo de dano por nível. Isso reflete treinamento extremo, talento ou aprimoramento sobrenatural de alguma forma.</p><p>Superperícia conta como um único poder, independentemente do número de perícias afetadas. Isso significa que um herói ou heroína de Nível 1 com um Limite de Poder 5, por exemplo, não pode gastar mais do que 5 pontos em todas as superperícias.</p><p>Cada nível custa um ponto, independentemente do atributo ligado e aumenta quaisquer características derivadas, como Aparar.</p>",
+      "modifiers": "<p>DISPOSITIVO (-2):</p><p>Desde que possam ser removidos, poderes recebem um desconto se derivam de um dispositivo em vez de alguma habilidade do super. O desconto depende do quão fácil é perder o Dispositivo.</p><p>Se o Dispositivo for um item que se \"veste\" ou é relativamente difícil de ser removido por um oponente, como uma parte de armadura, máscara, elmo ou cinto, reduza o custo em 1.</p><p>Se o item for facilmente removido – como um amuleto ou bandana, algo carregado na mão que possa cair ou ser desarmado – como um cajado mágico ou arma de fogo – reduza o custo em 2.</p><p>Um poder comprado como Dispositivo nunca funciona para outras personagens, não importa a forma que assuma. Dispositivos Perdidos: Se um Dispositivo for perdido, o herói ou heroína deve tentar recuperá-lo para recuperar seus poderes. Se destruído, o Mestre deve criar uma difícil aventura ou tarefa que eventualmente permita adquirir um substituto e recuperar suas habilidades.</p><p>Se uma heroína ou herói perder um Dispositivo que forneça Superatributo ou Superperícia, qualquer Vantagem ou habilidade que os tinham como Requisitos são perdidas até que o Dispositivo seja recuperado.</p>"
     }
   ],
   "biography": "<p>Abel, um jovem curioso com o dom de atravessar paredes, vasculhava as terras arrasadas pela Guerra dos Três Reinos quando encontrou uma adaga negra e incomum. Ele a chamou de Adaga Sanguinária. A lâmina perdia seu fio irremediavelmente sem contato com sangue e, quando o tocava, emitia uma vibração soturna. Amolá-la era inútil; apenas o sangue restaurava seu corte.</p><p>Alguns dias após o conflito, na floresta, ele avistou uma carruagem fortemente custodiada por agentes de Amanda Waller. Dentro, um prisioneiro marciano branco definhava, à beira da morte. Abel, espreitando de dentro da parede da carruagem, viu uma oportunidade. Sussurrou uma proposta: \"Eu sei do que você é capaz. Possua esta adaga mágica, e eu te libertarei\".</p><p>O marciano, Rhaast, aceitou o pacto. Agora, Rhaast habita a adaga e concede parte de seu poder a Abel. Em troca, quando a necessidade é extrema, Abel permite que Rhaast assuma temporariamente o controle de seu corpo, transformando-os numa força de combate formidável e simbiótica.</p>"
